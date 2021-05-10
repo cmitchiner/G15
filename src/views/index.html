@@ -26,12 +26,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Upload</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sankey">Sankey</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="test.html#sankey">Sankey</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./test.html">Test Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./visualizations.html">Visualizations</a></li>
                         
                     </ul>
                 </div>
@@ -47,22 +46,6 @@
                 </div>
             </div>
         </header>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Upload a csv file!</h2>
-                        <form action="/upload" method="POST" enctype="multipart/form-data">
-                        <input id="actual-btn" type="file" name="Csv data file" accept=".csv" hidden/>
-                        <label class= "btn btn-primary" for="actual-btn">Select a file</label>
-                        <button class="btn btn-primary js-scroll-trigger">Submit</button>
-                    </form>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- About-->
         <section class="about-section text-center" id="about">
             <div class="container">
@@ -79,12 +62,7 @@
                 <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
             </div>
         </section>
-        <!-- Sankey-->
-        <section class="sankey-section bg-light" id="sankey">
-            <script src="https://d3js.org/d3.v4.min.js"></script>
-            <script src="js/sankey.js"></script>
-            <script src="js/sankey2.js"></script>        
-        </section>
+       
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container">

@@ -112,6 +112,7 @@
             .attr("y", function(d) { return d.dy / 2; })
             .attr("dy", ".35em")
             .attr("text-anchor", "end")
+            .style("fill", "white")
             .attr("transform", null)
             .text(function(d) { return d.name; })
         .filter(function(d) { return d.x < width / 2; })

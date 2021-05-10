@@ -2,8 +2,8 @@
     var units = "Widgets";
 
     // set the dimensions and margins of the graph
-    var margin = {top: 10, right: 10, bottom: 10, left: 10},
-        width = 1400 - margin.left - margin.right,
+    var margin = {top: 10, right: 200, bottom: 10, left: 200},
+        width = 1900 - margin.left - margin.right,
         height = 750 - margin.top - margin.bottom;
 
     // format variables

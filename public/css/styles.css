@@ -10289,7 +10289,8 @@ body {
 
 .sankey-section {
   padding-top: 10rem;
-  padding-left: 30rem;
+  /*padding-left: 30rem;*/
+  
   padding-bottom: 30rem;
   background: linear-gradient(to top, #ffff 0%, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.9) 100%);
 }

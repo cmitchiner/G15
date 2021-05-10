@@ -16,15 +16,21 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
-app.use(express.static('public'));
-app.use(express.static('src/views'));
+app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, '/src/views')));
 
-//Tell the webpage the root HTML file
+
 
 //Add the upload function to the website
 app.post('/upload', upload.single("Csv data file"), (req, res) => {
     return res.json({ status : "File uploaded successfully!" });
 });
 
+//Tell the webpage the root HTML file
+app.get("/*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "/src/views/", "index.html"));
+
+});
+
 //Send website to local host port 5050 and print server running to console
-app.listen(process.env.PORT || 5050, () => console.log("Server running..."));
+app.listen(process.env.PORT || 80, () => console.log("Server running..."));

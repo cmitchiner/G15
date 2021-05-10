@@ -1,5 +1,5 @@
 
-    var units = "Widgets";
+    var units = "Emails";
 
     // set the dimensions and margins of the graph
     var margin = {top: 10, right: 200, bottom: 10, left: 200},

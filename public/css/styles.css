@@ -10348,7 +10348,7 @@ text { /*text in boxes*/
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  background: black;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10363,6 +10363,10 @@ text { /*text in boxes*/
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+label {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
 }
 
 .contact-section {

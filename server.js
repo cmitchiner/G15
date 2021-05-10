@@ -28,7 +28,6 @@ app.post('/upload', upload.single("Csv data file"), (req, res) => {
 //Tell the webpage the root HTML file
 app.get("/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "/src/views/", "index.html"));
-
 });
 
 //Send website to local host port 5050 and print server running to console

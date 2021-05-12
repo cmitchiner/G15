@@ -10359,6 +10359,27 @@ body {
   margin-bottom: 5rem;
 }
 
+.v2-section {
+  padding-top: 10rem;
+  /*padding-left: 30rem;*/
+
+  padding-bottom: 10rem;
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg"); */
+}
+.v2-section p {
+  margin-bottom: 20rem;
+}
+.v2-section h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgb(0, 255, 42), rgb(1, 121, 31), rgba(0,0,0,0.2));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
 .sankey-section {
   padding-top: 10rem;
   /*padding-left: 30rem;*/
@@ -10368,6 +10389,16 @@ body {
 }
 .sankey-section p {
   margin-bottom: 20rem;
+}
+.sankey-section h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(0, 248, 12, 0.9), rgba(255, 255, 255, 0.2));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 .node rect { /* rectangles on the vertical */
   cursor: move;

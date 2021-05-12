@@ -2,7 +2,7 @@
     var units = "Emails";
 
     // set the dimensions and margins of the graph
-    var margin = {top: 10, right: 200, bottom: 10, left: 200},
+    var margin = {top: 10, right: 50, bottom: 10, left: 50},
         width = 1900 - margin.left - margin.right,
         height = 750 - margin.top - margin.bottom;
 
@@ -13,9 +13,12 @@
 
     // append the svg object to the body of the page
     var svg = d3.select("#sankey").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        // .attr("width", 1400)
+        // .attr("height", 600)
+        .attr("viewBox", `0 0 1900 750`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
         .append("g")
+        
         .attr("transform", 
                 "translate(" + margin.left + "," + margin.top + ")");
 

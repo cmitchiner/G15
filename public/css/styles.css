@@ -2408,6 +2408,10 @@ textarea.form-control {
   }
 }
 
+.margin-right {
+  margin-right: 2rem;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;

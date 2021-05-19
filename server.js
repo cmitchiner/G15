@@ -31,4 +31,4 @@ app.get("/*", (req, res) => {
 });
 
 //Send website to local host port 5050 and print server running to console
-app.listen(process.env.PORT || 80, () => console.log("Server running..."));
+app.listen(process.env.PORT || 5050, () => console.log("Server running..."));

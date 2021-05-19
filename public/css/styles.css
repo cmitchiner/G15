@@ -10380,6 +10380,17 @@ body {
           background-clip: text;
 }
 
+.center {
+  margin: auto;
+  width: 376px;
+  text-align: center;
+  display: block;
+  /* border: 3px solid green; */
+  padding-top: 50px;
+}
+
+
+
 .sankey-section {
   padding-top: 10rem;
   /*padding-left: 30rem;*/

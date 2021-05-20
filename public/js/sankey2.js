@@ -137,7 +137,7 @@
         .enter().append("path")
             .attr("class", "link")
             .attr("d", path)
-            .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+            .style("stroke-width", function(d) { return Math.max(0.2, d.dy); })
             //.style("stroke-opacity", function(d){
             // if ((graph.links.year1 > inputyear1 && graph.links.month1 > inputmonth1) ||
             //     (graph.links.year1 > inputyear1 && graph.links.month1 == inputmonth1) ||

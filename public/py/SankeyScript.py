@@ -1,6 +1,6 @@
 import csv
 
-input = open('data.csv')
+input = open('./uploads/data.csv')
 inputcsv = csv.reader(input)
 
 inputSource = []
@@ -83,6 +83,6 @@ for x in range(len(checkList)):
         checkList[x][4] = bigList.count(checkList[x])
         resultList.append(checkList[x])
 
-with open('commas.csv', 'w', newline='') as f:
+with open('./public/data/commas.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerows(resultList)

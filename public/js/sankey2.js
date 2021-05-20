@@ -1,6 +1,69 @@
 
     var units = "Emails";
 
+    inputyear1=1998;
+    inputmonth1=11;
+
+    // Years
+    var dataTime = d3.range(0, 5).map(function(d) {         ///////// TO DO: automate dates input from csv
+        return new Date(1998 + d, 11, 1);
+    });
+
+    var sliderTime = d3
+        .sliderBottom()
+        .min(d3.min(dataTime))
+        .max(d3.max(dataTime))
+        .step(1000 * 60 * 60 * 24 * 365)
+        .width(300)
+        .tickFormat(d3.timeFormat('%Y'))
+        .tickValues(dataTime)
+        .default(new Date(1998, 11, 1)) //default is 1998
+        .on('onchange', val => {
+        d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
+        inputyear1 = parseInt(d3.timeFormat('%Y')(val));
+        });
+
+    var gTime = d3
+        .select('div#slider-time')
+        .append('svg')
+        .attr('width', 500)
+        .attr('height', 100)
+        .append('g')
+        .attr('transform', 'translate(30,30)');
+
+    gTime.call(sliderTime);
+
+    d3.select('p#value-time').text(d3.timeFormat('%Y')(sliderTime.value()));
+
+    // Months
+    var data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+
+    var sliderSimple = d3
+    .sliderBottom()
+    .min(d3.min(data))
+    .max(d3.max(data))
+    .width(300)
+    .tickFormat(d3.format(''))
+    .step(1)
+    .ticks(12)
+    .default(1)
+    .on('onchange', val => {
+        d3.select('p#value-simple').text(d3.format('')(val));
+        inputmonth1 = parseInt(d3.format('')(val));
+    });
+
+    var gSimple = d3
+    .select('div#slider-simple')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
+
+    gSimple.call(sliderSimple);
+
+    d3.select('p#value-simple').text(d3.format('')(sliderSimple.value()));
+
     // set the dimensions and margins of the graph
     var margin = {top: 10, right: 50, bottom: 10, left: 50},
         width = 1900 - margin.left - margin.right,
@@ -31,18 +94,20 @@
     var path = sankey.link();
 
     // load the data
-    d3.csv("/data/shorter_sankey_smol.csv", function(error, data) {
+    d3.csv("/data/commas.csv", function(error, data) {
         
         //set up graph in same style as original example but empty
         graph = {"nodes" : [], "links" : []};
 
         data.forEach(function (d) {
-        graph.nodes.push({ "name": d.source });
-        graph.nodes.push({ "name": d.target });
-        graph.links.push({ "source": d.source,
-                            "target": d.target,
-                            "value": +d.value });
-        });
+            graph.nodes.push({ "name": d.source });
+            graph.nodes.push({ "name": d.target });
+            graph.links.push({ "source": d.source,
+                               "target": d.target,
+                               "value": +d.value,
+                               "year1": d.year1,
+                               "month1": d.month1});
+           });
 
         // return only the distinct / unique nodes
         graph.nodes = d3.keys(d3.nest()
@@ -72,7 +137,12 @@
         .enter().append("path")
             .attr("class", "link")
             .attr("d", path)
-            .style("stroke-width", function(d) { return Math.max(1, d.dy); })
+            .style("stroke-width", function(d) { return Math.max(0.2, d.dy); })
+            //.style("stroke-opacity", function(d){
+            // if ((graph.links.year1 > inputyear1 && graph.links.month1 > inputmonth1) ||
+            //     (graph.links.year1 > inputyear1 && graph.links.month1 == inputmonth1) ||
+            //     (graph.links.year1 == inputyear1 && graph.links.month1 > inputmonth1)) {return 0;} /////////////// TO DO
+            // ;})
             .sort(function(a, b) { return b.dy - a.dy; });
 
         // add the link titles

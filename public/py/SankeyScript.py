@@ -88,4 +88,4 @@ with open('./public/data/commas.csv', 'w', newline='') as f:
     writer.writerows(resultList)
 
 
-    print("Done with changing the file.")
+print("Done with changing the file.")

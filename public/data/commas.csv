@@ -655,7 +655,7 @@ month1,year1,source,target,value
 9,2000,Manager,NEGATIVE,3
 11,1998,Employee,POSITIVE,5
 2,2001,CEO,NEGATIVE,1
-6,2001,In House Lawyer,POSITIVE,500
+6,2001,In House Lawyer,POSITIVE,5
 10,1999,Employee,NEGATIVE,4
 4,2001,Managing Director,POSITIVE,2
 11,1998,Employee,NEUTRAL,2
@@ -1025,7 +1025,7 @@ month1,year1,source,target,value
 2,2002,NEUTRAL,President1,18
 5,2001,NEUTRAL,Director1,46
 10,2001,POSITIVE,Trader1,57
-12,2001,POSITIVE,In House Lawyer1,497
+12,2001,POSITIVE,In House Lawyer1,2
 7,2001,NEUTRAL,Manager1,41
 11,2000,POSITIVE,CEO1,6
 1,2001,POSITIVE,Unknown1,78

@@ -19,8 +19,6 @@ const upload = multer({ storage: storage });
 app.use(express.static(path.join(__dirname, '/public')));
 app.use(express.static(path.join(__dirname, '/src/views')));
 
-
-
 //Add the upload function to the website
 app.post('/upload', upload.single("Csv data file"), (req, res) => {
     var dataToSend;

@@ -40,5 +40,6 @@ app.get("/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "/src/views/", "index.html"));
 });
 
-//Send website to local host port 5050 and print server running to console
-app.listen(process.env.PORT || 80, () => console.log("Server running..."));
+const port = 5050;
+//Send website to local host port and print server running to console
+app.listen(process.env.PORT || port, () => console.log("Server running at port " + port));

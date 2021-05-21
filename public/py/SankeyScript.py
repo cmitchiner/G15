@@ -47,7 +47,7 @@ for x in valueSentiment:
 
 for x in inputTarget:
     if x != "toJobtitle":
-        newTarget.append(x)
+        newTarget.append(x + "1")
 
 numberStart.append("value")
 for x in range(len(newTarget) - 1):
@@ -70,13 +70,13 @@ for x in range(len(monthList)):
 inputSource[0] = "source"
 
 for x in range(len(newTarget)):
-    bigList.append([inputSource[x], newTarget[x], monthList[x], yearList[x], numberStart[x]])
+    bigList.append([monthList[x], yearList[x], inputSource[x], newTarget[x], numberStart[x]])
 
 for x in bigList:
     if x not in checkList:
         checkList.append(x)
 
-resultList.append(['source', 'target', 'month', 'year', 'value'])
+resultList.append(['month1', 'year1', 'source', 'target', 'value'])
 
 for x in range(len(checkList)):
     if x != 0:
@@ -86,3 +86,6 @@ for x in range(len(checkList)):
 with open('./public/data/commas.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerows(resultList)
+
+
+    print("Done with changing the file.")

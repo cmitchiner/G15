@@ -10254,6 +10254,20 @@ body {
   border: 0;
 }
 
+.padding-around {
+  padding-left: 5mm;
+  padding-right: 5mm;
+  padding-bottom: 5mm;
+  padding-top: 5mm;
+}
+
+.margin-around {
+  margin-left: 5mm;
+  margin-right: 5mm;
+  margin-bottom: 5mm;
+  margin-top: 5mm;
+}
+
 .masthead {
   position: relative;
   width: 100%;

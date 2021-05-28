@@ -75,107 +75,19 @@
         </section>
         <!--Network Graph -->
         <section class=" bg-dark container-fluid" id="viz2">
-            <style>
-                .links line {
-                  stroke: #999;
-                  stroke-opacity: 0.6;
-                }
-              
-                .nodes circle {
-                  stroke: #fff;
-                  stroke-width: 1.5px;
-                }
-              
-                .slidecontainer {
-                  width: 100%;
-                }
-              
-                .slider {
-                  -webkit-appearance: none;
-                  width: 100%;
-                  height: 25px;
-                  background: #d3d3d3;
-                  outline: none;
-                  opacity: 0.7;
-                  -webkit-transition: .2s;
-                  transition: opacity .2s;
-                }
-              
-                .slider:hover {
-                  opacity: 1;
-                }
-              
-                .slider::-webkit-slider-thumb {
-                  -webkit-appearance: none;
-                  appearance: none;
-                  width: 25px;
-                  height: 25px;
-                  background: #04AA6D;
-                  cursor: pointer;
-                }
-              
-                .slider::-moz-range-thumb {
-                  width: 25px;
-                  height: 25px;
-                  background: #04AA6D;
-                  cursor: pointer;
-                }
-              </style>
-              
-              
-              <script src="https://d3js.org/d3.v4.min.js"></script>
+
               <script src="/js/create_graph.js"></script>
               
               <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-              <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-              <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-              <script>
-                (function () {
-                  ("#slider-range").slider({
-                    range: true,
-                    min: 0,
-                    max: 100,
-                    values: [0, 2],
-                    slide: function (event, ui) {
-                      changeSlider(g1, ui.values[0], ui.values[1]);
-                      ("#amount").val(ui.values[0] + " - " + ui.values[1]);
-                    }
-                  });
-                  ("#amount").val(("#slider-range").slider("values", 0) +
-                    " - " + ("#slider-range").slider("values", 1));
-                });
+
+              <script src= "/js/network_slider.js"></script>
               
-              </script>
-              
-              
-              <h1>Number of E-mails</h1>
-              <p>Drag the slider to limit the number of emails.</p>
+              <h1 class ="text-center">Number of E-mails</h1>
+              <p class="text-center">Drag the slider to limit the number of emails.</p>
               
               <div id="slider-range"></div>
-              <input type="slider" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;"><br>
-              <!-- <svg width="1500" height="800"></svg> -->
-              
-              
-              <script>
-                var g1;
-                d3.json("/data/enron_dataset.json", function (g) {
-                  g1 = g;
-                  changeSlider(g1, 0, 1);
-                });
-              
-              
-                var slider = document.getElementById("myRange");
-                var output = document.getElementById("demo");;
-                output.innerHTML = slider.value;
-              
-              
-              
-                slider.oninput = function () {
-                  output.innerHTML = this.value;
-                  changeSlider(g1, 0, this.value);
-                }
-              
-              </script>     
+              <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;"><br>
+              <script src="/js/create_graph2.js"></script>  
         </section>
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50">

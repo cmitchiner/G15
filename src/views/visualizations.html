@@ -32,8 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sankey">Sankey Diagram</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#viz2">Viz2</a></li>
-                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#networkViz">Network Diagram</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,11 +65,7 @@
         </section>
         <!--Network Graph -->
         <section class=" bg-dark container-fluid" id="networkViz">
-
-              
-              
               <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
               <script>
                 $(function () {
                   $("#slider-range").slider({
@@ -86,13 +81,9 @@
                   $("#amount").val($("#slider-range").slider("values", 0) +
                     " - " + $("#slider-range").slider("values", 1));
                 });
-              
               </script>
-              
-              
-              <h1 class="mx-auto my-0 text-uppercase text-center">Number of E-mails</h1>
+              <h1 class="mx-auto my-0 text-uppercase text-center">Force Directed Network Diagram</h1>
               <p class="text-white-50 text-center">Drag the slider to limit the number of emails.</p>
-              
               <div id="slider-range" ></div>
               <input type="text" id="amount" readonly style=" border:0; background: #343a40; color:#f6931f; font-weight:bold;"><br>
               <script src="/js/create_graph.js"></script>

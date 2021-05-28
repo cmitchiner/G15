@@ -10,7 +10,7 @@ function changeSlider(g1, min, max) {
     return graph.links.some(e => e.source === el.id || e.target === el.id);
   });
 
-  var svg = d3.select("#viz2")
+  var svg = d3.select("#networkViz")
     .append("svg")
     .attr("viewBox", `0 0 1900 750`)
     .attr("preserveAspectRatio", "xMidYMid meet");

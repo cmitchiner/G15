@@ -71,13 +71,30 @@
               
               <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-              <script src= "/js/network_slider.js"></script>
+              <script>
+                $(function () {
+                  $("#slider-range").slider({
+                    range: true,
+                    min: 0,
+                    max: 100,
+                    values: [0, 2],
+                    slide: function (event, ui) {
+                      changeSlider(g1, ui.values[0], ui.values[1]);
+                      $("#amount").val(ui.values[0] + " - " + ui.values[1]);
+                    }
+                  });
+                  $("#amount").val($("#slider-range").slider("values", 0) +
+                    " - " + $("#slider-range").slider("values", 1));
+                });
+              
+              </script>
+              
               
               <h1 class="mx-auto my-0 text-uppercase text-center">Number of E-mails</h1>
               <p class="text-white-50 text-center">Drag the slider to limit the number of emails.</p>
               
-              <div id="slider-range"></div>
-              <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;"><br>
+              <div id="slider-range" ></div>
+              <input type="text" id="amount" readonly style=" border:0; color:#f6931f; font-weight:bold;"><br>
               <script src="/js/create_graph2.js"></script>  
         </section>
         <!-- Footer-->
@@ -90,7 +107,7 @@
             </div>
             <div class="container">Copyright &copy; VizGenie 2021</div></footer>
         <!-- Bootstrap core JS-->
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>

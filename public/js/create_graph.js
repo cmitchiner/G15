@@ -1,5 +1,9 @@
 
 var simulation;
+var svg2 = d3.select("#networkViz")
+    .append("svg")
+    .attr("viewBox", `0 0 1900 750`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
 function changeSlider(g1, min, max) {
   let graph = JSON.parse(JSON.stringify(g1));
   graph.links = graph.links.filter(function (el) {
@@ -10,12 +14,12 @@ function changeSlider(g1, min, max) {
     return graph.links.some(e => e.source === el.id || e.target === el.id);
   });
 
-  var svg = d3.select("#networkViz")
-    .append("svg")
-    .attr("viewBox", `0 0 1900 750`)
-    .attr("preserveAspectRatio", "xMidYMid meet");
+  // var svg = d3.select("#networkViz")
+  //   .append("svg")
+  //   .attr("viewBox", `0 0 1900 750`)
+  //   .attr("preserveAspectRatio", "xMidYMid meet");
 
-  svg.selectAll("*").remove();
+  svg2.selectAll("*").remove();
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -25,14 +29,14 @@ function changeSlider(g1, min, max) {
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 
-  var link = svg.append("g")
+  var link = svg2.append("g")
     .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
     .attr("stroke-width", function (d) { return Math.sqrt(d.value); });
 
-  var node = svg.append("g")
+  var node = svg2.append("g")
     .attr("class", "nodes")
     .selectAll("circle")
     .data(graph.nodes)

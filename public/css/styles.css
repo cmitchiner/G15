@@ -10404,9 +10404,12 @@ body {
 }
 
 
-/* .network-section {
-
-} */
+ .network-section {
+  padding-top: 10rem;
+  /*padding-left: 30rem;*/
+  padding-left: 30rem;
+  padding-bottom: 10rem;
+} 
 
 .links line {
   stroke: #999;

@@ -10,9 +10,10 @@ function changeSlider(g1, min, max) {
     return graph.links.some(e => e.source === el.id || e.target === el.id);
   });
 
-  var svg = d3.select("#viz2").append("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+  var svg = d3.select("#viz2")
+    .append("svg")
+    .attr("viewBox", `0 0 1900 750`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
 
   svg.selectAll("*").remove();
 

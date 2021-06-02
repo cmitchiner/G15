@@ -1,7 +1,7 @@
 
     var units = "Emails";
 
-    inputyear1=1998;
+    inputyear1=1999;
     inputmonth1=11;
 
     // Years
@@ -100,13 +100,16 @@
         graph = {"nodes" : [], "links" : []};
 
         data.forEach(function (d) {
-            graph.nodes.push({ "name": d.source });
+            if (d.year1 <= inputyear1 && d.month1 <= inputmonth1)
+            {
+                graph.nodes.push({ "name": d.source });
             graph.nodes.push({ "name": d.target });
             graph.links.push({ "source": d.source,
                                "target": d.target,
                                "value": +d.value,
                                "year1": d.year1,
                                "month1": d.month1});
+            }
            });
 
         // return only the distinct / unique nodes

@@ -1,7 +1,8 @@
 
     
-    inputyear1=1999;
+    inputyear1=1998;
     inputmonth1=11;
+    
     
     // set the dimensions and margins of the graph
     var margin = {top: 10, right: 50, bottom: 10, left: 50},
@@ -18,6 +19,8 @@
         
         .attr("transform", 
                 "translate(" + margin.left + "," + margin.top + ")");
+    
+    changeSankey(inputyear1, inputmonth1);
 
     // Years
     var dataTime = d3.range(0, 5).map(function(d) {         ///////// TO DO: automate dates input from csv
@@ -63,7 +66,7 @@
     .tickFormat(d3.format(''))
     .step(1)
     .ticks(12)
-    .default(1)
+    .default(11)
     .on('onchange', val => {
         d3.select('p#value-simple').text(d3.format('')(val));
         inputmonth1 = parseInt(d3.format('')(val));
@@ -151,7 +154,7 @@
                 .layout(32);
 
             
-            svg.selectAll("*").remove();    
+            svg.selectAll("*").remove(); 
             // add in the links
             var link = svg.append("g").selectAll(".link")
                 .data(graph.links)

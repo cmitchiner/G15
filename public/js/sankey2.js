@@ -90,7 +90,7 @@
     function changeSankey(inputyear1, inputmonth1) {
         
 
-        svg.selectAll("*").remove();
+        
         var units = "Emails";
 
         
@@ -150,6 +150,8 @@
                 .links(graph.links)
                 .layout(32);
 
+            
+            svg.selectAll("*").remove();    
             // add in the links
             var link = svg.append("g").selectAll(".link")
                 .data(graph.links)

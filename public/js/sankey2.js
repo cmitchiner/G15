@@ -80,7 +80,7 @@
     .attr('transform', 'translate(30,30)');
 
     gSimple.call(sliderSimple);
-
+ 
     d3.select('p#value-simple').text(d3.format('')(sliderSimple.value()));
 
     

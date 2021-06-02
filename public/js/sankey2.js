@@ -118,7 +118,7 @@
             data.forEach(function (d) {
                 if (d.year1 <= inputyear1 && d.month1 <= inputmonth1)
                 {
-                    graph.nodes.push({ "name": d.source });
+                graph.nodes.push({ "name": d.source });
                 graph.nodes.push({ "name": d.target });
                 graph.links.push({ "source": d.source,
                                 "target": d.target,

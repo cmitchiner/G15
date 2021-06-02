@@ -55,16 +55,21 @@
          <section class="sankey-section bg-dark container-fluid" id="sankey">
             <h1 class="mx-auto my-0 text-uppercase text-center">Sankey Diagram</h1>
             <script src="js/sankey.js"></script>
-            <div class="center align-items-center">
-                <h3 class="text-white-50">Up to Year</h3>
-                <div class="col-sm"><div id="slider-time"></div></div>
-                <h3 class="text-white-50">Up to Month</h3>
-                <div class="col-sm"><div id="slider-simple"></div></div>    
-            </div>
+                <div class="row align-items-center">
+                    <div class="column center">
+                        <h3 class="text-white-50">Up to Year</h3>
+                    <div class="row-sm"><div id="slider-time"></div></div>
+                    </div>
+                    <div class="column center">
+                        <h3 class="text-white-50 text-center">Up to Month</h3>
+                        <div class="row-sm"><div id="slider-simple"></div></div> 
+                    </div>
+                  </div>    
+            
             <script src="js/sankey2.js"></script>        
         </section>
         <!--Network Graph -->
-        <section class=" bg-dark container-fluid" id="networkViz">
+        <section class="network-section bg-dark container-fluid" id="networkViz">
               <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
               <script>
                 $(function () {

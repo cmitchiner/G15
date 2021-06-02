@@ -36,7 +36,6 @@
         .on('onchange', val => {
         d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
         inputyear1 = parseInt(d3.timeFormat('%Y')(val));
-        svg.selectAll("*").remove();
         changeSankey(inputyear1, inputmonth1);
         });
 
@@ -67,7 +66,6 @@
     .on('onchange', val => {
         d3.select('p#value-simple').text(d3.format('')(val));
         inputmonth1 = parseInt(d3.format('')(val));
-        svg.selectAll("*").remove();
         changeSankey(inputyear1, inputmonth1);
     });
 
@@ -90,7 +88,7 @@
     function changeSankey(inputyear1, inputmonth1) {
         
 
-        svg.selectAll("*").remove();
+        
         var units = "Emails";
 
         
@@ -149,6 +147,8 @@
                 .nodes(graph.nodes)
                 .links(graph.links)
                 .layout(32);
+
+            svg.selectAll("*").remove();
 
             // add in the links
             var link = svg.append("g").selectAll(".link")
@@ -211,8 +211,8 @@
                 .attr("x", 6 + sankey.nodeWidth())
                 .attr("text-anchor", "start");
 
-            // the function for moving the nodes
-            function dragmove(d) {
+                // the function for moving the nodes
+        function dragmove(d) {
             d3.select(this)
                 .attr("transform", 
                     "translate(" 
@@ -223,6 +223,7 @@
             sankey.relayout();
             link.attr("d", path);
             }
+
         });
     }            
     

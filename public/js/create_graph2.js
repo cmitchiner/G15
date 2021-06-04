@@ -11,7 +11,7 @@ var g1;
         //Filter data by date from sliders
         // var month = 12;
         // var year = 2000;
-        g1 = {"nodes" : [], "links" : []};
+        g1 = {"nodes" : [], "links" : []}; 
 
         var filteredLinks = g.links.filter(d => parseInt(d.value.substr(0, 4)) <= YEAR && parseInt(d.value.substr(5, 7)) <= MONTH);
         filteredLinks = filteredLinks.map(u => ({ source: u.source, target: u.target}));

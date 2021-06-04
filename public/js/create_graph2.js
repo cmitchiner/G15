@@ -1,11 +1,19 @@
-var m1 = localStorage.getItem("LocalStorageMONTH");
-var y1 = localStorage.getItem("LocalStorageYEAR");
 
-var MONTH = Number(m1);
-var YEAR = Number(y1);
-console.log(MONTH, YEAR);
 
 var g1;
+
+createGraph();
+
+function createGraph()
+{
+    
+    var m1 = localStorage.getItem("LocalStorageMONTH");
+    var y1 = localStorage.getItem("LocalStorageYEAR");
+
+    var MONTH = Number(m1);
+    var YEAR = Number(y1);
+    console.log(MONTH, YEAR);
+
     d3.json("/data/GraphInput.json", function (g) {
         
         //Filter data by date from sliders
@@ -40,8 +48,16 @@ var g1;
         g1.nodes = g.nodes;
         g1.links = groupArray(filteredLinks);        
         console.log("g1", g1);
-        changeSlider(g1, 0, 1);
+        changeSlider(g1, 0, 2);
+        $("#amount").val(0 + " - " + 2);
+        $("#slider-range").slider("option", {values:[0,2]});
+        
+       // $("#slider-range").slider("values", 1);
     });
+}
+
+
+    
 
 
     var slider = document.getElementById("myRange");

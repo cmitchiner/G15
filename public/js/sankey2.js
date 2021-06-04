@@ -1,8 +1,10 @@
-
     
     inputyear1=1998;
     inputmonth1=11;
-    
+
+    localStorage.setItem("LocalStorageYEAR", inputyear1);
+    localStorage.setItem("LocalStorageMONTH", inputmonth1);
+
     
     // set the dimensions and margins of the graph
     var margin = {top: 10, right: 50, bottom: 10, left: 50},
@@ -41,7 +43,7 @@
         inputyear1 = parseInt(d3.timeFormat('%Y')(val));
         changeSankey(inputyear1, inputmonth1);
         localStorage.setItem("LocalStorageYEAR", inputyear1);
-        localStorage.setItem("LocalStorageMONTH", inputmonth1);
+        createGraph();
         });
 
     var gTime = d3
@@ -72,6 +74,7 @@
         d3.select('p#value-simple').text(d3.format('')(val));
         inputmonth1 = parseInt(d3.format('')(val));
         changeSankey(inputyear1, inputmonth1);
+        localStorage.setItem("LocalStorageMONTH", inputmonth1);
     });
 
     var gSimple = d3

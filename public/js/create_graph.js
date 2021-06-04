@@ -2,6 +2,8 @@
 var simulation;
 var svg2 = d3.select("#networkViz")
     .append("svg")
+    // .attr("width", '1900')
+    // .attr("height", '750')
     .attr("viewBox", `0 0 1900 750`)
     .attr("preserveAspectRatio", "xMidYMid meet");
 function changeSlider(g1, min, max) {
@@ -13,11 +15,6 @@ function changeSlider(g1, min, max) {
   graph.nodes = graph.nodes.filter(function (el) {
     return graph.links.some(e => e.source === el.id || e.target === el.id);
   });
-
-  // var svg = d3.select("#networkViz")
-  //   .append("svg")
-  //   .attr("viewBox", `0 0 1900 750`)
-  //   .attr("preserveAspectRatio", "xMidYMid meet");
 
   svg2.selectAll("*").remove();
 
@@ -67,8 +64,8 @@ function changeSlider(g1, min, max) {
       .attr("y2", function (d) { return d.target.y; });
 
     node
-      .attr("cx", function (d) { return d.x; })
-      .attr("cy", function (d) { return d.y; });
+      .attr("cx", function (d) { return d.x = Math.max(5, Math.min(1895, d.x));})
+      .attr("cy", function (d) { return d.y = Math.max(5, Math.min(745, d.y));});
   }
 }
 

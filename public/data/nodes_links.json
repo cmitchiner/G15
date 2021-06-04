@@ -1,0 +1,5602 @@
+{
+  "nodes": [
+    {
+      "id": "matthew.lenhart@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "danny.mccarty@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "susan.scott@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "andy.zipper@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "debra.perlingiere@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "j.kaminski@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "mark.whitt@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "chris.germany@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "dan.hyvl@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "phillip.k.ellen@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "carol.clair@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "kimberly.watson@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "elizabeth.sager@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "drew.fossum@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "errol.mclaughlin@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "david.w.delainey@enron.com",
+      "group": "CEO"
+    },
+    {
+      "id": "lavorato@enron.com",
+      "group": "CEO"
+    },
+    {
+      "id": "richard.b.sanders@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "jeff.dasovich@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "don.baughman@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "mark.e.taylor@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "stacey.w.white@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "richard.shapiro@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "lynn.blair@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "mike.grigsby@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "sara.shackleton@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "tracy.geaccone@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "kay.mann@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "c..giron@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "kim.ward@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "monique.sanchez@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "steven.j.kean@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "louise.kitchen@enron.com",
+      "group": "President"
+    },
+    {
+      "id": "mark.mcconnell@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "charles.weldon@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "tana.jones@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "jeffrey.a.shankman@enron.com",
+      "group": "President"
+    },
+    {
+      "id": "m..forney@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "kevin.m.presto@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "barry.tycholiz@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "james.d.steffes@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "rick.buy@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "jason.williams@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "cara.semperger@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "gerald.nemec@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "richard.ring@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "juan.hernandez@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "paul.y barbo@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "bill.williams@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "stephanie.panus@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "diana.scholtes@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "e..haedicke@enron.com",
+      "group": "Managing Director"
+    },
+    {
+      "id": "john.arnold@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "martin.cuilla@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "stacy.dickson@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "mary.hain@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "jane.tholt@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "dutch.quigley@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "phillip.m.love@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "marie.heard@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "sean.crandall@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "daren.j.farmer@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "liz.taylor@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "scott.neal@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "larry.f.campbell@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "lindy.donoho@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "stanley.horton@enron.com",
+      "group": "President"
+    },
+    {
+      "id": "susan.w.pereira@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "kam.keiser@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "hunter.s.shively@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "rod.hayslett@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "andrea.ring@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "kenneth.lay@enron.com",
+      "group": "CEO"
+    },
+    {
+      "id": "kate.symes@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "theresa.staab@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "eric.bass@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "chris.dorland@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "paul.lucci@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "michelle.lokay@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "paul.d.thomas@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "shelley.corman@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "sally.beck@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "patrice.l.mims@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "eric.saibi@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "susan.bailey@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "larry.may@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "holden.salisbury@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "monika.causholli@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "darrell.schoolcraft@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "jonathan.mckay@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "harry.arora@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "greg.whalley@enron.com",
+      "group": "President"
+    },
+    {
+      "id": "john.hodge@enron.com",
+      "group": "Managing Director"
+    },
+    {
+      "id": "michelle.cash@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "vladi.pimenov@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "thomas.a.martin@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "sandra.f.brawner@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "steven.harris@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "jim.schwieger@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "tori.kuykendall@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "peter.keavey@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "john.griffith@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "john.zufferli@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "joe.stepenovitch@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "bill.rapp@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "steven.p.south@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "kevin.hyatt@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "kevin.ruscitti@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "lisa.gang@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "fletcher.j.sturm@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "dana.davis@enron.com",
+      "group": "Vice President"
+    },
+    {
+      "id": "robin.rodrigue@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "jay.reitmeyer@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "geir.solberg@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "joe.parks@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "jason.wolfe@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "h..lewis@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "doug.gilbert-smith@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "frank.ermis@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "teb.lokey@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "james.derrick@enron.com",
+      "group": "In House Lawyer"
+    },
+    {
+      "id": "matt.smith@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "mike.swerzbin@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "benjamin.rogers@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "jeff.skilling@enron.com",
+      "group": "CEO"
+    },
+    {
+      "id": "mark.guzman@enron.com",
+      "group": "Managing Director"
+    },
+    {
+      "id": "scott.hendrickson@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "mike.carson@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "geoff.storey@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "albert.meyers@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "robert.badeer@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "ryan.slinger@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "phillip.platter@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "jeff.king@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "judy.townsend@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "l..gay@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "matt.motley@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "tom.donohoe@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "keith.holst@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "joe.quenet@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "mike.maggi@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "mary.fischer@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "robert.benson@enron.com",
+      "group": "Director"
+    },
+    {
+      "id": "chris.stokley@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "craig.dean@enron.com",
+      "group": "Trader"
+    },
+    {
+      "id": "cooper.richey@enron.com",
+      "group": "Manager"
+    },
+    {
+      "id": "brad.mckay@enron.com",
+      "group": "Employee"
+    },
+    {
+      "id": "steven.merris@enron.com",
+      "group": "Unknown"
+    },
+    {
+      "id": "eric.linder@enron.com",
+      "group": "Employee"
+    }
+  ],
+  "links": [
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "8/13/2000"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "8/13/2000"
+ },
+ {
+   "source": "danny.mccarty@enron.com",
+   "target": "rod.hayslett@enron.com",
+   "date": "11/22/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "monique.sanchez@enron.com",
+   "date": "10/29/2000"
+ },
+ {
+   "source": "andy.zipper@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/11/2000"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "patrice.l.mims@enron.com",
+   "date": "9/25/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "7/27/2000"
+ },
+ {
+   "source": "mark.whitt@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "11/14/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "chris.germany@enron.com",
+   "date": "3/26/2002"
+ },
+ {
+   "source": "mark.whitt@enron.com",
+   "target": "gerald.nemec@enron.com",
+   "date": "8/20/2000"
+ },
+ {
+   "source": "dan.hyvl@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "4/8/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "hunter.s.shively@enron.com",
+   "date": "1/26/2000"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "fletcher.j.sturm@enron.com",
+   "date": "1/26/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "7/10/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "elizabeth.sager@enron.com",
+   "target": "kay.mann@enron.com",
+   "date": "6/2/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "12/2/2000"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "10/14/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "david.w.delainey@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "2/5/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "2/18/2001"
+ },
+ {
+   "source": "richard.b.sanders@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "10/23/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "4/22/2001"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "12/2/2000"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "larry.f.campbell@enron.com",
+   "date": "11/13/2000"
+ },
+ {
+   "source": "richard.b.sanders@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "10/23/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "12/14/1999"
+ },
+ {
+   "source": "stacey.w.white@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "2/4/2002"
+ },
+ {
+   "source": "richard.b.sanders@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "10/23/2000"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "12/2/2000"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "kevin.ruscitti@enron.com",
+   "date": "5/11/2000"
+ },
+ {
+   "source": "richard.b.sanders@enron.com",
+   "target": "mary.hain@enron.com",
+   "date": "10/23/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "7/30/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "8/23/2001"
+ },
+ {
+   "source": "richard.shapiro@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "7/30/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "12/7/1999"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "12/11/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "11/27/2000"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "1/28/2001"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "5/18/2000"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "11/28/2000"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "tori.kuykendall@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "tracy.geaccone@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "kay.mann@enron.com",
+   "target": "kay.mann@enron.com",
+   "date": "2/7/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "3/15/2000"
+ },
+ {
+   "source": "c..giron@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "12/12/2000"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "paul.lucci@enron.com",
+   "date": "3/12/2001"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "10/8/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "john.griffith@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "richard.shapiro@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "dan.hyvl@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "10/25/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "11/15/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "6/14/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "3/1/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "6/20/2001"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "juan.hernandez@enron.com",
+   "date": "12/26/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "7/27/2000"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "10/1/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "5/15/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "2/29/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "7/27/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "12/10/2000"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "1/1/2002"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "1/29/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "andy.zipper@enron.com",
+   "date": "1/1/2002"
+ },
+ {
+   "source": "charles.weldon@enron.com",
+   "target": "john.griffith@enron.com",
+   "date": "1/23/2001"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "1/29/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "sally.beck@enron.com",
+   "date": "1/1/2002"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "8/14/2000"
+ },
+ {
+   "source": "jeffrey.a.shankman@enron.com",
+   "target": "andy.zipper@enron.com",
+   "date": "11/16/2000"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "joe.stepenovitch@enron.com",
+   "date": "12/26/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "8/14/2000"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "rick.buy@enron.com",
+   "date": "1/1/2002"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "12/30/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "8/14/2000"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "2/6/2001"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "1/29/2002"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "6/19/2000"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "kevin.hyatt@enron.com",
+   "date": "9/7/2000"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "larry.f.campbell@enron.com",
+   "date": "12/26/2000"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "1/29/2002"
+ },
+ {
+   "source": "m..forney@enron.com",
+   "target": "doug.gilbert-smith@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "2/1/2002"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "2/29/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "6/20/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "6/19/2000"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "1/29/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "4/23/2001"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "jeff.king@enron.com",
+   "date": "12/26/2000"
+ },
+ {
+   "source": "m..forney@enron.com",
+   "target": "jeff.king@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "1/15/2002"
+ },
+ {
+   "source": "barry.tycholiz@enron.com",
+   "target": "gerald.nemec@enron.com",
+   "date": "5/7/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "martin.cuilla@enron.com",
+   "date": "9/4/2000"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "1/15/2002"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "5/7/2000"
+ },
+ {
+   "source": "rick.buy@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "5/13/2001"
+ },
+ {
+   "source": "jason.williams@enron.com",
+   "target": "gerald.nemec@enron.com",
+   "date": "6/28/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "5/7/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "9/9/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "scott.neal@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "jason.williams@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "6/28/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "11/30/2000"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "holden.salisbury@enron.com",
+   "date": "4/15/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "8/3/2000"
+ },
+ {
+   "source": "barry.tycholiz@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "5/10/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "matt.motley@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "11/1/2001"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "11/14/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "1/18/2000"
+ },
+ {
+   "source": "dan.hyvl@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "12/20/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "3/5/2002"
+ },
+ {
+   "source": "c..giron@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "1/10/2002"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "dan.hyvl@enron.com",
+   "date": "4/18/2001"
+ },
+ {
+   "source": "andy.zipper@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "11/5/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "6/20/2001"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "4/9/2001"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "11/14/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "danny.mccarty@enron.com",
+   "target": "rod.hayslett@enron.com",
+   "date": "12/11/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "8/27/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "5/20/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "chris.dorland@enron.com",
+   "date": "12/26/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "richard.ring@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "1/17/2002"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "john.zufferli@enron.com",
+   "date": "12/26/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "frank.ermis@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "3/7/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "10/11/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "juan.hernandez@enron.com",
+   "target": "don.baughman@enron.com",
+   "date": "9/6/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "sean.crandall@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "paul.y barbo@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "12/18/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "robert.badeer@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "dan.hyvl@enron.com",
+   "date": "12/20/1999"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "steven.merris@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "patrice.l.mims@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "1/1/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "2/24/2002"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "2/24/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "1/18/2000"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "robert.badeer@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "4/24/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "4/11/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "diana.scholtes@enron.com",
+   "target": "kate.symes@enron.com",
+   "date": "3/5/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "paul.y barbo@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "12/18/2001"
+ },
+ {
+   "source": "e..haedicke@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "11/1/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "1/28/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "john.arnold@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "2/8/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "craig.dean@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "steven.merris@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "danny.mccarty@enron.com",
+   "date": "9/19/2000"
+ },
+ {
+   "source": "martin.cuilla@enron.com",
+   "target": "kevin.ruscitti@enron.com",
+   "date": "7/17/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "12/16/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "4/9/2001"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "1/24/2002"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "don.baughman@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "stacy.dickson@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "3/13/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "ryan.slinger@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "mary.hain@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "stacy.dickson@enron.com",
+   "target": "dan.hyvl@enron.com",
+   "date": "3/13/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "richard.shapiro@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "9/24/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "10/24/2001"
+ },
+ {
+   "source": "martin.cuilla@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "7/17/2001"
+ },
+ {
+   "source": "paul.y barbo@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "12/18/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "5/24/2000"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "paul.lucci@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "bill.williams@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "judy.townsend@enron.com",
+   "date": "9/30/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "10/3/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "1/1/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "chris.germany@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "craig.dean@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "8/30/2000"
+ },
+ {
+   "source": "stacy.dickson@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "4/2/2001"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "daren.j.farmer@enron.com",
+   "date": "8/28/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "mike.swerzbin@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "11/20/2000"
+ },
+ {
+   "source": "david.w.delainey@enron.com",
+   "target": "jeff.skilling@enron.com",
+   "date": "8/27/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "9/23/2001"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "robert.badeer@enron.com",
+   "date": "11/20/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "9/9/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "3/18/2001"
+ },
+ {
+   "source": "lavorato@enron.com",
+   "target": "larry.may@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "8/30/2000"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "11/20/2000"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "11/20/2000"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "eric.linder@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "11/20/2000"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "bill.williams@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "10/25/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "9/9/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "8/30/2000"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "3/6/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "9/30/2000"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "10/8/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "9/9/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "mark.guzman@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "ryan.slinger@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "jane.tholt@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "3/21/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "matt.smith@enron.com",
+   "date": "7/29/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "9/9/2001"
+ },
+ {
+   "source": "dutch.quigley@enron.com",
+   "target": "charles.weldon@enron.com",
+   "date": "5/29/2001"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "3/11/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "kate.symes@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "10/28/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "1/27/2002"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "2/11/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "11/14/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "9/9/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "scott.hendrickson@enron.com",
+   "date": "10/7/2000"
+ },
+ {
+   "source": "tracy.geaccone@enron.com",
+   "target": "rod.hayslett@enron.com",
+   "date": "10/24/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "11/14/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "geir.solberg@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "dan.hyvl@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "12/13/2000"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "mark.guzman@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "2/11/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "scott.hendrickson@enron.com",
+   "date": "1/27/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/9/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "8/13/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "3/12/2000"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "mary.hain@enron.com",
+   "date": "8/30/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "2/11/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "3/12/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "3/18/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "eric.linder@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "3/12/2000"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "7/1/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "1/11/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "2/11/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "3/12/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "3/18/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "rick.buy@enron.com",
+   "date": "10/3/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "geir.solberg@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "3/12/2000"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "diana.scholtes@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "sean.crandall@enron.com",
+   "target": "diana.scholtes@enron.com",
+   "date": "1/16/2002"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "2/11/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "3/12/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "3/18/2001"
+ },
+ {
+   "source": "daren.j.farmer@enron.com",
+   "target": "thomas.a.martin@enron.com",
+   "date": "1/10/2002"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "3/19/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "10/9/2000"
+ },
+ {
+   "source": "scott.neal@enron.com",
+   "target": "sandra.f.brawner@enron.com",
+   "date": "11/25/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "lisa.gang@enron.com",
+   "date": "4/3/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "5/22/2000"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "5/11/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "6/6/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "5/10/2000"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "6/6/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "5/11/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "5/10/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "6/6/2000"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "8/27/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "paul.lucci@enron.com",
+   "date": "12/16/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "6/6/2000"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "matt.smith@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "8/27/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "chris.germany@enron.com",
+   "date": "4/17/2002"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "8/27/2001"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "kate.symes@enron.com",
+   "date": "10/17/2001"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "sean.crandall@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "2/26/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "kenneth.lay@enron.com",
+   "date": "5/12/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "10/25/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "2/26/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "7/31/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "5/17/2000"
+ },
+ {
+   "source": "larry.f.campbell@enron.com",
+   "target": "larry.f.campbell@enron.com",
+   "date": "8/9/1999"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "11/29/2000"
+ },
+ {
+   "source": "scott.neal@enron.com",
+   "target": "judy.townsend@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "scott.neal@enron.com",
+   "target": "sandra.f.brawner@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "kay.mann@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "3/7/2002"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "8/31/2000"
+ },
+ {
+   "source": "stanley.horton@enron.com",
+   "target": "rod.hayslett@enron.com",
+   "date": "4/3/2001"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "7/13/2000"
+ },
+ {
+   "source": "scott.neal@enron.com",
+   "target": "jonathan.mckay@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "david.w.delainey@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "10/27/2000"
+ },
+ {
+   "source": "scott.neal@enron.com",
+   "target": "andrea.ring@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "frank.ermis@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "3/23/2000"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "11/1/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "5/3/2001"
+ },
+ {
+   "source": "david.w.delainey@enron.com",
+   "target": "rick.buy@enron.com",
+   "date": "8/27/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "8/16/2000"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "lisa.gang@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "drew.fossum@enron.com",
+   "date": "7/16/2000"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "4/27/2000"
+ },
+ {
+   "source": "andy.zipper@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "10/8/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "susan.w.pereira@enron.com",
+   "target": "kenneth.lay@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "charles.weldon@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "11/5/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "4/9/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "hunter.s.shively@enron.com",
+   "target": "c..giron@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "tracy.geaccone@enron.com",
+   "date": "11/13/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "8/6/2000"
+ },
+ {
+   "source": "danny.mccarty@enron.com",
+   "target": "rod.hayslett@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "2/11/2001"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "9/7/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "12/20/1999"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "4/4/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "3/26/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "12/10/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "4/4/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "matt.smith@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "4/4/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "12/10/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "3/26/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "5/15/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "4/4/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "12/20/1999"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "3/16/2000"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "bill.rapp@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "2/5/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "1/28/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "8/23/2000"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "2/5/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "1/28/2002"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "teb.lokey@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "12/20/1999"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "3/26/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "5/16/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "1/28/2002"
+ },
+ {
+   "source": "barry.tycholiz@enron.com",
+   "target": "mark.whitt@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "3/24/2002"
+ },
+ {
+   "source": "andrea.ring@enron.com",
+   "target": "sandra.f.brawner@enron.com",
+   "date": "10/16/2001"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "2/22/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "3/16/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "9/17/2000"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "1/28/2002"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "7/31/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "11/13/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "4/22/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "8/6/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "7/31/2000"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "6/5/2001"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "fletcher.j.sturm@enron.com",
+   "date": "1/27/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "7/18/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "7/31/2000"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "12/26/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "7/31/2000"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "11/1/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "c..giron@enron.com",
+   "date": "2/3/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "11/1/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "3/16/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "11/1/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "5/22/2000"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "c..giron@enron.com",
+   "date": "2/20/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "tori.kuykendall@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "11/1/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "1/23/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "2/3/2002"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "monique.sanchez@enron.com",
+   "date": "1/24/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "judy.townsend@enron.com",
+   "date": "12/27/1999"
+ },
+ {
+   "source": "kenneth.lay@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "8/22/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "1/21/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "tracy.geaccone@enron.com",
+   "target": "rod.hayslett@enron.com",
+   "date": "6/25/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "kevin.hyatt@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "monique.sanchez@enron.com",
+   "date": "10/26/2000"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "10/26/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "12/19/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "3/16/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "11/9/2000"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "10/19/2000"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "frank.ermis@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "9/19/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "1/7/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "7/8/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "2/20/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "7/8/2001"
+ },
+ {
+   "source": "kate.symes@enron.com",
+   "target": "bill.williams@enron.com",
+   "date": "4/12/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "10/26/2000"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "7/8/2001"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "holden.salisbury@enron.com",
+   "date": "4/3/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "11/9/2000"
+ },
+ {
+   "source": "theresa.staab@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "10/14/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "7/8/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "juan.hernandez@enron.com",
+   "target": "don.baughman@enron.com",
+   "date": "8/20/2001"
+ },
+ {
+   "source": "theresa.staab@enron.com",
+   "target": "paul.lucci@enron.com",
+   "date": "10/14/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "10/7/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "1/30/2001"
+ },
+ {
+   "source": "jason.williams@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "4/3/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "8/3/2000"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "gerald.nemec@enron.com",
+   "date": "9/11/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "12/5/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "jason.williams@enron.com",
+   "target": "dan.hyvl@enron.com",
+   "date": "4/3/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "2/5/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "7/24/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "1/22/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "2/5/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "hunter.s.shively@enron.com",
+   "date": "8/24/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "4/20/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/25/1999"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "5/14/2000"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "10/26/2000"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "dana.davis@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "eric.bass@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "10/15/2000"
+ },
+ {
+   "source": "chris.dorland@enron.com",
+   "target": "cooper.richey@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "6/5/1999"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "7/11/2001"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "gerald.nemec@enron.com",
+   "date": "5/13/2001"
+ },
+ {
+   "source": "paul.lucci@enron.com",
+   "target": "theresa.staab@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "doug.gilbert-smith@enron.com",
+   "date": "1/29/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "dana.davis@enron.com",
+   "date": "7/11/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "7/11/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "2/13/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "7/11/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "5/30/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "10/28/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "2/20/2001"
+ },
+ {
+   "source": "phillip.k.ellen@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "9/10/2000"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "2/13/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "1/2/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "3/19/2000"
+ },
+ {
+   "source": "stacey.w.white@enron.com",
+   "target": "stacey.w.white@enron.com",
+   "date": "7/22/2001"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "1/12/2002"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "3/19/2000"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "2/13/2002"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "7/29/2001"
+ },
+ {
+   "source": "paul.lucci@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "3/19/2000"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "theresa.staab@enron.com",
+   "date": "4/3/2001"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "10/16/2001"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "10/26/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "3/19/2000"
+ },
+ {
+   "source": "richard.b.sanders@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "3/7/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "2/13/2002"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "3/19/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "rick.buy@enron.com",
+   "date": "1/2/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "mark.whitt@enron.com",
+   "date": "4/3/2001"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "10/16/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "2/20/2001"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "10/16/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "2/13/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "hunter.s.shively@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "11/19/2000"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "darrell.schoolcraft@enron.com",
+   "date": "1/12/2002"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "11/19/2000"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "5/20/2001"
+ },
+ {
+   "source": "stacey.w.white@enron.com",
+   "target": "john.zufferli@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "5/20/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "jeffrey.a.shankman@enron.com",
+   "date": "1/2/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "11/19/2000"
+ },
+ {
+   "source": "stacey.w.white@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "10/30/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "2/13/2002"
+ },
+ {
+   "source": "paul.d.thomas@enron.com",
+   "target": "paul.d.thomas@enron.com",
+   "date": "5/15/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "kevin.hyatt@enron.com",
+   "date": "11/19/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "1/14/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "6/27/2000"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "doug.gilbert-smith@enron.com",
+   "date": "2/20/2001"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "1/12/2002"
+ },
+ {
+   "source": "eric.bass@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "8/23/2000"
+ },
+ {
+   "source": "shelley.corman@enron.com",
+   "target": "rod.hayslett@enron.com",
+   "date": "11/27/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "10/30/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "1/14/2002"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "10/30/2000"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "2/25/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "8/3/2000"
+ },
+ {
+   "source": "mary.hain@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "12/10/2000"
+ },
+ {
+   "source": "mark.mcconnell@enron.com",
+   "target": "darrell.schoolcraft@enron.com",
+   "date": "2/14/2002"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "6/11/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "12/6/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "8/3/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "4/11/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "5/18/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "8/3/2000"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "1/12/2002"
+ },
+ {
+   "source": "sally.beck@enron.com",
+   "target": "sally.beck@enron.com",
+   "date": "12/5/2000"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "jeff.skilling@enron.com",
+   "date": "6/11/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "9/7/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "11/12/2000"
+ },
+ {
+   "source": "patrice.l.mims@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "10/8/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "8/3/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "10/10/1999"
+ },
+ {
+   "source": "john.arnold@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "5/8/2001"
+ },
+ {
+   "source": "chris.dorland@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "9/18/2001"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "1/10/2000"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "5/18/2000"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "12/16/1999"
+ },
+ {
+   "source": "dan.hyvl@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "4/11/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "frank.ermis@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "david.w.delainey@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "11/21/2000"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "tori.kuykendall@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "4/10/2000"
+ },
+ {
+   "source": "paul.lucci@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "9/24/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "theresa.staab@enron.com",
+   "target": "gerald.nemec@enron.com",
+   "date": "8/1/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/21/1999"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "11/20/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "6/14/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "12/7/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "9/11/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "11/20/2001"
+ },
+ {
+   "source": "sally.beck@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "4/19/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "12/7/2000"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "mike.carson@enron.com",
+   "date": "6/14/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "11/21/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "11/20/2001"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "paul.d.thomas@enron.com",
+   "date": "11/5/2001"
+ },
+ {
+   "source": "eric.saibi@enron.com",
+   "target": "doug.gilbert-smith@enron.com",
+   "date": "1/15/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "9/25/2001"
+ },
+ {
+   "source": "andrea.ring@enron.com",
+   "target": "richard.ring@enron.com",
+   "date": "4/4/2001"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "dan.hyvl@enron.com",
+   "date": "11/12/2000"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "juan.hernandez@enron.com",
+   "date": "6/14/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "drew.fossum@enron.com",
+   "date": "11/20/2001"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "m..forney@enron.com",
+   "date": "11/5/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "8/26/2001"
+ },
+ {
+   "source": "susan.bailey@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "4/24/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "12/7/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "11/20/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "5/24/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "3/27/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "eric.saibi@enron.com",
+   "date": "6/14/2001"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "kate.symes@enron.com",
+   "date": "12/7/2000"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "larry.f.campbell@enron.com",
+   "date": "11/5/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "11/25/2001"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "2/28/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "m..forney@enron.com",
+   "date": "6/14/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "10/25/2001"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "11/22/2001"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "8/27/2001"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "2/28/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "11/25/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "john.griffith@enron.com",
+   "date": "11/25/2001"
+ },
+ {
+   "source": "john.arnold@enron.com",
+   "target": "jeffrey.a.shankman@enron.com",
+   "date": "6/6/2000"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "10/25/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "11/28/2000"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "11/25/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "liz.taylor@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "11/28/2000"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "mike.maggi@enron.com",
+   "date": "11/25/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "kenneth.lay@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "mary.hain@enron.com",
+   "date": "11/28/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "11/28/2000"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "larry.may@enron.com",
+   "date": "11/25/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "5/28/2001"
+ },
+ {
+   "source": "larry.may@enron.com",
+   "target": "john.griffith@enron.com",
+   "date": "4/9/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "9/16/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "11/20/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "james.derrick@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "patrice.l.mims@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "12/14/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "3/5/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "6/11/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "3/24/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "sean.crandall@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "mark.whitt@enron.com",
+   "date": "10/4/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "12/19/1999"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "3/5/2000"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "1/6/2002"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "ryan.slinger@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "4/25/2001"
+ },
+ {
+   "source": "eric.bass@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "8/3/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "6/11/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "chris.stokley@enron.com",
+   "date": "9/16/2001"
+ },
+ {
+   "source": "dutch.quigley@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "3/20/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "mike.swerzbin@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "richard.shapiro@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "5/3/2000"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "teb.lokey@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "2/13/2001"
+ },
+ {
+   "source": "eric.bass@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "diana.scholtes@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "11/5/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "11/5/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "6/11/2000"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "10/29/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "mark.whitt@enron.com",
+   "date": "11/28/2000"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "4/12/2000"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "2/28/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "craig.dean@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "8/9/2000"
+ },
+ {
+   "source": "drew.fossum@enron.com",
+   "target": "kevin.hyatt@enron.com",
+   "date": "9/6/2000"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "darrell.schoolcraft@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "9/16/2001"
+ },
+ {
+   "source": "eric.bass@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "debra.perlingiere@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "9/17/2001"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "joe.stepenovitch@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "holden.salisbury@enron.com",
+   "target": "diana.scholtes@enron.com",
+   "date": "1/18/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "8/7/2000"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "8/7/2000"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "9/27/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "8/7/2000"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "chris.stokley@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "benjamin.rogers@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "9/27/2001"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "8/5/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "9/27/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "9/27/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "robert.badeer@enron.com",
+   "date": "9/16/2001"
+ },
+ {
+   "source": "monika.causholli@enron.com",
+   "target": "cara.semperger@enron.com",
+   "date": "2/2/2001"
+ },
+ {
+   "source": "diana.scholtes@enron.com",
+   "target": "cara.semperger@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "don.baughman@enron.com",
+   "target": "juan.hernandez@enron.com",
+   "date": "9/4/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "3/12/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "12/26/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "3/12/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "11/14/1999"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "12/9/1999"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "3/12/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "joe.quenet@enron.com",
+   "date": "8/4/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "6/11/2000"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "12/9/1999"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "9/6/2000"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "8/4/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "2/8/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "3/24/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "9/6/2000"
+ },
+ {
+   "source": "kate.symes@enron.com",
+   "target": "ryan.slinger@enron.com",
+   "date": "3/13/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "9/6/2000"
+ },
+ {
+   "source": "jane.tholt@enron.com",
+   "target": "andrea.ring@enron.com",
+   "date": "2/25/2001"
+ },
+ {
+   "source": "darrell.schoolcraft@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "monika.causholli@enron.com",
+   "target": "lisa.gang@enron.com",
+   "date": "2/2/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "9/6/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "4/10/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "paul.d.thomas@enron.com",
+   "date": "8/4/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "2/8/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "dana.davis@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "tracy.geaccone@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "chris.dorland@enron.com",
+   "date": "8/4/2001"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "stacey.w.white@enron.com",
+   "date": "5/10/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "frank.ermis@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "12/6/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "larry.f.campbell@enron.com",
+   "date": "8/4/2001"
+ },
+ {
+   "source": "c..giron@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "10/30/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "2/8/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "12/15/1999"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "john.arnold@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "10/29/2001"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "sally.beck@enron.com",
+   "date": "10/22/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "dana.davis@enron.com",
+   "date": "8/4/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "3/7/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "matt.smith@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "greg.whalley@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "joe.stepenovitch@enron.com",
+   "date": "8/4/2001"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "5/30/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "10/7/2001"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "james.derrick@enron.com",
+   "date": "12/6/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "8/19/2001"
+ },
+ {
+   "source": "scott.neal@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "10/9/2001"
+ },
+ {
+   "source": "dutch.quigley@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "7/9/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "john.arnold@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "11/18/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "1/7/2002"
+ },
+ {
+   "source": "diana.scholtes@enron.com",
+   "target": "cara.semperger@enron.com",
+   "date": "2/4/2002"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "12/13/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "1/23/2002"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "kate.symes@enron.com",
+   "date": "10/18/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "scott.neal@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "11/11/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "1/23/2002"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "eric.linder@enron.com",
+   "date": "10/18/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "c..giron@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "1/23/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "10/1/2000"
+ },
+ {
+   "source": "bill.williams@enron.com",
+   "target": "mark.guzman@enron.com",
+   "date": "10/18/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "1/23/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "kay.mann@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "9/26/2000"
+ },
+ {
+   "source": "andy.zipper@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "10/7/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "1/23/2002"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "scott.neal@enron.com",
+   "date": "1/31/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/19/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "3/28/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "9/30/2001"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "stacey.w.white@enron.com",
+   "date": "5/14/2001"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "9/30/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "tori.kuykendall@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "m..forney@enron.com",
+   "target": "robert.badeer@enron.com",
+   "date": "5/9/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "7/6/2000"
+ },
+ {
+   "source": "kay.mann@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "9/26/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "9/26/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "chris.germany@enron.com",
+   "date": "4/22/2002"
+ },
+ {
+   "source": "kam.keiser@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "12/2/2001"
+ },
+ {
+   "source": "m..forney@enron.com",
+   "target": "eric.saibi@enron.com",
+   "date": "9/19/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "10/24/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "3/11/2001"
+ },
+ {
+   "source": "richard.b.sanders@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "5/24/2001"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "matt.motley@enron.com",
+   "date": "3/4/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "h..lewis@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "3/11/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "3/12/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "4/9/2001"
+ },
+ {
+   "source": "c..giron@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "2/25/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "3/11/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "10/28/2001"
+ },
+ {
+   "source": "jonathan.mckay@enron.com",
+   "target": "brad.mckay@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "1/4/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "3/24/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "john.zufferli@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "mark.whitt@enron.com",
+   "target": "paul.lucci@enron.com",
+   "date": "12/9/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "3/11/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "1/4/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "phillip.m.love@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "jonathan.mckay@enron.com",
+   "target": "andrea.ring@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "mike.swerzbin@enron.com",
+   "date": "3/4/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "10/24/2000"
+ },
+ {
+   "source": "harry.arora@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "4/19/2001"
+ },
+ {
+   "source": "greg.whalley@enron.com",
+   "target": "andy.zipper@enron.com",
+   "date": "9/24/2000"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "1/4/2001"
+ },
+ {
+   "source": "jonathan.mckay@enron.com",
+   "target": "sandra.f.brawner@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "andy.zipper@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "greg.whalley@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "9/24/2000"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "7/12/1999"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "2/16/2000"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "1/4/2001"
+ },
+ {
+   "source": "kevin.m.presto@enron.com",
+   "target": "doug.gilbert-smith@enron.com",
+   "date": "10/23/2001"
+ },
+ {
+   "source": "jonathan.mckay@enron.com",
+   "target": "peter.keavey@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "matt.smith@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "doug.gilbert-smith@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "sean.crandall@enron.com",
+   "date": "3/4/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "1/4/2001"
+ },
+ {
+   "source": "jonathan.mckay@enron.com",
+   "target": "john.hodge@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "kevin.m.presto@enron.com",
+   "date": "1/30/2002"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "charles.weldon@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "2/25/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "darrell.schoolcraft@enron.com",
+   "date": "1/30/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "1/29/2001"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "chris.germany@enron.com",
+   "date": "4/28/2002"
+ },
+ {
+   "source": "jonathan.mckay@enron.com",
+   "target": "scott.neal@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "3/20/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "monique.sanchez@enron.com",
+   "date": "9/10/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "2/9/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "2/25/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "judy.townsend@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "10/25/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "paul.y barbo@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "jeffrey.a.shankman@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "11/15/2001"
+ },
+ {
+   "source": "john.hodge@enron.com",
+   "target": "gerald.nemec@enron.com",
+   "date": "10/30/2000"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "7/1/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "4/25/2000"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "jason.wolfe@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "michelle.cash@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "paul.d.thomas@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "vladi.pimenov@enron.com",
+   "target": "jonathan.mckay@enron.com",
+   "date": "11/20/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "kam.keiser@enron.com",
+   "date": "1/14/2002"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "7/5/2000"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "judy.townsend@enron.com",
+   "date": "9/25/2000"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "1/29/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "5/7/2000"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "stephanie.panus@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "1/22/2002"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "fletcher.j.sturm@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "lindy.donoho@enron.com",
+   "target": "bill.rapp@enron.com",
+   "date": "11/19/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "11/27/2000"
+ },
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "9/25/2000"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "geoff.storey@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "robert.badeer@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "carol.clair@enron.com",
+   "date": "7/23/2000"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "7/23/2001"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lynn.blair@enron.com",
+   "date": "6/23/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "geir.solberg@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "scott.hendrickson@enron.com",
+   "date": "9/25/2000"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "e..haedicke@enron.com",
+   "date": "2/16/2000"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "frank.ermis@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "7/23/2001"
+ },
+ {
+   "source": "darrell.schoolcraft@enron.com",
+   "target": "steven.harris@enron.com",
+   "date": "8/21/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "michelle.lokay@enron.com",
+   "target": "kimberly.watson@enron.com",
+   "date": "1/31/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "7/23/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "5/21/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "holden.salisbury@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "steven.j.kean@enron.com",
+   "date": "2/25/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "2/25/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "kimberly.watson@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "12/9/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "scott.neal@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "4/24/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "eric.saibi@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "marie.heard@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "10/7/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "tori.kuykendall@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "matt.motley@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "hunter.s.shively@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "1/28/2001"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "jason.williams@enron.com",
+   "date": "7/24/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "michelle.cash@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "11/12/2000"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "jane.tholt@enron.com",
+   "target": "l..gay@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "1/28/2001"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "geoff.storey@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "mark.whitt@enron.com",
+   "target": "paul.lucci@enron.com",
+   "date": "12/12/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "don.baughman@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "michelle.cash@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "11/12/2000"
+ },
+ {
+   "source": "thomas.a.martin@enron.com",
+   "target": "thomas.a.martin@enron.com",
+   "date": "4/8/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "robert.benson@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "12/4/2000"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "patrice.l.mims@enron.com",
+   "date": "11/12/2001"
+ },
+ {
+   "source": "thomas.a.martin@enron.com",
+   "target": "eric.bass@enron.com",
+   "date": "4/8/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "thomas.a.martin@enron.com",
+   "target": "daren.j.farmer@enron.com",
+   "date": "4/8/2001"
+ },
+ {
+   "source": "david.w.delainey@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "thomas.a.martin@enron.com",
+   "target": "jim.schwieger@enron.com",
+   "date": "4/8/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "7/14/1999"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "sandra.f.brawner@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "mark.whitt@enron.com",
+   "target": "theresa.staab@enron.com",
+   "date": "12/12/2001"
+ },
+ {
+   "source": "sandra.f.brawner@enron.com",
+   "target": "jonathan.mckay@enron.com",
+   "date": "11/28/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/11/2000"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "1/8/2001"
+ },
+ {
+   "source": "rick.buy@enron.com",
+   "target": "rick.buy@enron.com",
+   "date": "12/3/2000"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "12/10/2000"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "larry.may@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "barry.tycholiz@enron.com",
+   "target": "mark.whitt@enron.com",
+   "date": "10/25/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "mike.carson@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "steven.j.kean@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "12/10/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/24/2000"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "sara.shackleton@enron.com",
+   "date": "10/11/2000"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "gerald.nemec@enron.com",
+   "target": "mark.whitt@enron.com",
+   "date": "5/13/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "chris.dorland@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "j.kaminski@enron.com",
+   "target": "j.kaminski@enron.com",
+   "date": "1/9/2001"
+ },
+ {
+   "source": "jane.tholt@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "barry.tycholiz@enron.com",
+   "target": "mark.mcconnell@enron.com",
+   "date": "8/14/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "doug.gilbert-smith@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "jane.tholt@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "john.arnold@enron.com",
+   "date": "5/24/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "mike.grigsby@enron.com",
+   "date": "1/14/2002"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "matt.smith@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "john.griffith@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "dan.hyvl@enron.com",
+   "target": "stacy.dickson@enron.com",
+   "date": "3/12/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "john.griffith@enron.com",
+   "date": "5/24/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "10/8/2000"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "drew.fossum@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "steven.p.south@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "5/11/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "10/8/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "david.w.delainey@enron.com",
+   "date": "7/23/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "jeff.king@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "dan.hyvl@enron.com",
+   "target": "debra.perlingiere@enron.com",
+   "date": "3/12/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "frank.ermis@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "dutch.quigley@enron.com",
+   "date": "5/24/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "phillip.m.love@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "3/11/2001"
+ },
+ {
+   "source": "e..haedicke@enron.com",
+   "target": "richard.b.sanders@enron.com",
+   "date": "10/24/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "7/23/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "louise.kitchen@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "phillip.k.ellen@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "keith.holst@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "e..haedicke@enron.com",
+   "target": "elizabeth.sager@enron.com",
+   "date": "10/24/2000"
+ },
+ {
+   "source": "kim.ward@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "10/1/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "mike.maggi@enron.com",
+   "date": "5/24/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "jeff.dasovich@enron.com",
+   "date": "2/15/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "jay.reitmeyer@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "e..haedicke@enron.com",
+   "target": "mark.e.taylor@enron.com",
+   "date": "10/24/2000"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "shelley.corman@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "hunter.s.shively@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "sara.shackleton@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "11/4/2001"
+ },
+ {
+   "source": "james.d.steffes@enron.com",
+   "target": "richard.shapiro@enron.com",
+   "date": "8/8/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "larry.may@enron.com",
+   "date": "5/24/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "h..lewis@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "7/11/2000"
+ },
+ {
+   "source": "cara.semperger@enron.com",
+   "target": "kate.symes@enron.com",
+   "date": "3/22/2001"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "matthew.lenhart@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "mark.e.taylor@enron.com",
+   "target": "tana.jones@enron.com",
+   "date": "7/11/2000"
+ },
+ {
+   "source": "chris.germany@enron.com",
+   "target": "judy.townsend@enron.com",
+   "date": "9/12/2000"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "susan.scott@enron.com",
+   "date": "4/9/2001"
+ },
+ {
+   "source": "jane.tholt@enron.com",
+   "target": "kim.ward@enron.com",
+   "date": "10/21/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "marie.heard@enron.com",
+   "date": "11/2/2001"
+ },
+ {
+   "source": "monique.sanchez@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "10/11/2001"
+ },
+ {
+   "source": "jeff.dasovich@enron.com",
+   "target": "james.d.steffes@enron.com",
+   "date": "2/4/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "mike.maggi@enron.com",
+   "date": "2/5/2002"
+ },
+ {
+   "source": "louise.kitchen@enron.com",
+   "target": "barry.tycholiz@enron.com",
+   "date": "4/29/2001"
+ },
+ {
+   "source": "errol.mclaughlin@enron.com",
+   "target": "errol.mclaughlin@enron.com",
+   "date": "5/24/2001"
+ },
+ {
+   "source": "tana.jones@enron.com",
+   "target": "susan.bailey@enron.com",
+   "date": "11/28/2000"
+ },
+ {
+   "source": "mike.grigsby@enron.com",
+   "target": "monique.sanchez@enron.com",
+   "date": "9/3/2001"
+ },
+ {
+   "source": "david.w.delainey@enron.com",
+   "target": "rick.buy@enron.com",
+   "date": "10/5/2000"
+ },
+ {
+   "source": "rod.hayslett@enron.com",
+   "target": "tracy.geaccone@enron.com",
+   "date": "11/26/2001"
+ },
+ {
+   "source": "paul.lucci@enron.com",
+   "target": "theresa.staab@enron.com",
+   "date": "11/8/2001"
+ },
+ {
+   "source": "carol.clair@enron.com",
+   "target": "stephanie.panus@enron.com",
+   "date": "4/25/2001"
+ },
+ {
+   "source": "steven.harris@enron.com",
+   "target": "drew.fossum@enron.com",
+   "date": "12/10/2000"
+ },
+ {
+   "source": "lynn.blair@enron.com",
+   "target": "lindy.donoho@enron.com",
+   "date": "12/30/2001"
+ },
+ {
+   "source": "susan.scott@enron.com",
+   "target": "michelle.lokay@enron.com",
+   "date": "2/22/2001"
+ },
+ {
+   "source": "liz.taylor@enron.com",
+   "target": "thomas.a.martin@enron.com",
+   "date": "2/5/2002"
+ }
+]
+}

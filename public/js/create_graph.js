@@ -46,7 +46,8 @@ function changeSlider(g1, min, max) {
       .on("end", dragended));
 
   node.append("title")
-    .text(function (d) { return d.id; });
+    .text(function (d) { return (d.id + "\n" +  d.group); });
+
 
   simulation
     .nodes(graph.nodes)

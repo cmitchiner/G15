@@ -40,6 +40,8 @@
         d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
         inputyear1 = parseInt(d3.timeFormat('%Y')(val));
         changeSankey(inputyear1, inputmonth1);
+        localStorage.setItem("LocalStorageYEAR", inputyear1);
+        localStorage.setItem("LocalStorageMONTH", inputmonth1);
         });
 
     var gTime = d3

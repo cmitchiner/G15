@@ -1,12 +1,19 @@
+var m1 = localStorage.getItem("LocalStorageMONTH");
+var y1 = localStorage.getItem("LocalStorageYEAR");
+
+var MONTH = Number(m1);
+var YEAR = Number(y1);
+console.log(MONTH, YEAR);
+
 var g1;
     d3.json("/data/GraphInput.json", function (g) {
         
         //Filter data by date from sliders
-        var month = 12;
-        var year = 2000;
+        // var month = 12;
+        // var year = 2000;
         g1 = {"nodes" : [], "links" : []};
 
-        var filteredLinks = g.links.filter(d => parseInt(d.value.substr(0, 4)) <= year && parseInt(d.value.substr(5, 7)) <= month);
+        var filteredLinks = g.links.filter(d => parseInt(d.value.substr(0, 4)) <= YEAR && parseInt(d.value.substr(5, 7)) <= MONTH);
         filteredLinks = filteredLinks.map(u => ({ source: u.source, target: u.target}));
         console.log("filteredLinks", filteredLinks);
         const groupArray = (filteredLinks = []) => {

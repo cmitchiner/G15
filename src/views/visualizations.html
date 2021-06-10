@@ -66,7 +66,7 @@
                     </div>
                   </div>    
             
-            <script src="js/sankey2.js"></script>        
+            <!-- <script src="js/sankey2.js"></script>         -->
         </section>
         <!--Network Graph -->
         <section class="network-section bg-dark container-fluid" id="networkViz">
@@ -76,10 +76,11 @@
                   $("#slider-range").slider({
                     range: true,
                     min: 0,
-                    max: 100,
-                    values: [0, 2],
+                    max: 500,
+                    values: [0, 500],
                     slide: function (event, ui) {
                       changeSlider(g1, ui.values[0], ui.values[1]);
+                      getMinMax(ui.values[0],ui.values[1]);
                       $("#amount").val(ui.values[0] + " - " + ui.values[1]);
                     }
                   });
@@ -88,9 +89,10 @@
                 });
               </script>
               <h1 class="mx-auto my-0 text-uppercase text-center">Force Directed Network Diagram</h1>
-              <p class="text-white-50 text-center">Drag the slider to limit the number of emails.</p>
+              <p class="text-white-50 text-center">Drag the slider to limit the number of emails per person.</p>
               <div id="slider-range" ></div>
               <input type="text" id="amount" readonly style=" border:0; background: #343a40; color:#f6931f; font-weight:bold;"><br>
+              <script src = "/js/sankey2.js"></script>
               <script src="/js/create_graph.js"></script>
               <script src="/js/create_graph2.js"></script>  
         </section>

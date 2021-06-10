@@ -1,6 +1,6 @@
     
-    inputyear1=1998;
-    inputmonth1=11;
+    inputyear1=2002;
+    inputmonth1=12;
 
     localStorage.setItem("LocalStorageYEAR", inputyear1);
     localStorage.setItem("LocalStorageMONTH", inputmonth1);
@@ -37,7 +37,7 @@
         .width(300)
         .tickFormat(d3.timeFormat('%Y'))
         .tickValues(dataTime)
-        .default(new Date(1998, 11, 1)) //default is 1998
+        .default(new Date(2002, 12, 1)) //default is 1998
         .on('onchange', val => {
         d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
         inputyear1 = parseInt(d3.timeFormat('%Y')(val));
@@ -69,7 +69,7 @@
     .tickFormat(d3.format(''))
     .step(1)
     .ticks(12)
-    .default(11)
+    .default(12)
     .on('onchange', val => {
         d3.select('p#value-simple').text(d3.format('')(val));
         inputmonth1 = parseInt(d3.format('')(val));
@@ -89,7 +89,16 @@
  
     d3.select('p#value-simple').text(d3.format('')(sliderSimple.value()));
 
-    
+    var minEmails = 0;
+    var maxEmails = 500;
+
+    function getMinMax(minE, maxE)
+    {
+        minEmails = minE;
+        maxEmails = maxE;
+        console.log(minEmails,maxEmails);
+        changeSankey(inputyear1, inputmonth1);
+    }
     
 
 
@@ -132,6 +141,7 @@
                                 "year1": d.year1,
                                 "month1": d.month1});
                 }
+                
             });
 
             // return only the distinct / unique nodes
@@ -141,8 +151,8 @@
 
             // loop through each link replacing the text with its index from node
             graph.links.forEach(function (d, i) {
-            graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
-            graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
+                    graph.links[i].source = graph.nodes.indexOf(graph.links[i].source);
+                    graph.links[i].target = graph.nodes.indexOf(graph.links[i].target);
             });
 
             // now loop through each nodes to make nodes an array of objects
@@ -150,6 +160,10 @@
             graph.nodes.forEach(function (d, i) {
             graph.nodes[i] = { "name": d };
             });
+
+            graph.links = graph.links.filter(function (el) {
+                return minEmails <= el.value && el.value <= maxEmails;
+              });
 
             sankey
                 .nodes(graph.nodes)

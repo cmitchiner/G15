@@ -48,10 +48,7 @@ function createGraph()
         g1.nodes = g.nodes;
         g1.links = groupArray(filteredLinks);        
         console.log("g1", g1);
-        changeSlider(g1, 0, 2);
-        $("#amount").val(0 + " - " + 2);
-        $("#slider-range").slider("option", {values:[0,2]});
-        
+        changeSlider(g1, $("#slider-range").slider("values",0), $("#slider-range").slider("values",1));
        // $("#slider-range").slider("values", 1);
     });
 }

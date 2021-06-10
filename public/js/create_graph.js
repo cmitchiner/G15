@@ -1,5 +1,8 @@
 
 var simulation;
+var minTest;
+var maxTest;
+
 var svg2 = d3.select("#networkViz")
     .append("svg")
     // .attr("width", '1900')
@@ -7,6 +10,7 @@ var svg2 = d3.select("#networkViz")
     .attr("viewBox", `0 0 1900 750`)
     .attr("preserveAspectRatio", "xMidYMid meet");
 function changeSlider(g1, min, max) {
+
   let graph = JSON.parse(JSON.stringify(g1));
   graph.links = graph.links.filter(function (el) {
     return min <= el.value && el.value <= max;
@@ -22,7 +26,7 @@ function changeSlider(g1, min, max) {
 
   simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function (d) { return d.id; }))
-    .force("charge", d3.forceManyBody())
+    .force("charge", d3.forceManyBody().strength(-69.42))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 

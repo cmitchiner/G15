@@ -37,6 +37,9 @@ function changeSlider(g1, min, max) {
     .enter().append("line")
     .attr("stroke-width", function (d) { return Math.sqrt(d.value); });
 
+  link.append("title")
+    .text(function (d) { return (d.value); });
+
   var node = svg2.append("g")
     .attr("class", "nodes")
     .selectAll("circle")

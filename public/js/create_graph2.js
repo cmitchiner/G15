@@ -21,9 +21,9 @@ function createGraph()
         // var year = 2000;
         g1 = {"nodes" : [], "links" : []}; 
 
-        var filteredLinks = g.links.filter(d => parseInt(d.value.substr(0, 4)) <= YEAR && parseInt(d.value.substr(5, 7)) <= MONTH);
+        var filteredLinks = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 7)) <= MONTH);
         filteredLinks = filteredLinks.map(u => ({ source: u.source, target: u.target}));
-        console.log("filteredLinks", filteredLinks);
+        //console.log("filteredLinks", filteredLinks);
         const groupArray = (filteredLinks = []) => {
             // create map
             let map = new Map()
@@ -43,11 +43,11 @@ function createGraph()
             return res;
         };
         
-        console.log("filteredLinks", groupArray(filteredLinks));
+        //console.log("filteredLinks", groupArray(filteredLinks));
 
         g1.nodes = g.nodes;
         g1.links = groupArray(filteredLinks);        
-        console.log("g1", g1);
+        //console.log("g1", g1);
         changeSlider(g1, $("#slider-range").slider("values",0), $("#slider-range").slider("values",1));
        // $("#slider-range").slider("values", 1);
     });

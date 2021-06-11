@@ -39,11 +39,11 @@ var sliderTime = d3
     .tickValues(dataTime)
     .default(new Date(2002, 12, 1)) //default is 1998
     .on('onchange', val => {
-    d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
-    inputyear1 = parseInt(d3.timeFormat('%Y')(val));
-    getSankeyData(inputyear1, inputmonth1);
-    localStorage.setItem("LocalStorageYEAR", inputyear1);
-    createGraph();
+        d3.select('p#value-time').text(d3.timeFormat('%Y')(val));
+        inputyear1 = parseInt(d3.timeFormat('%Y')(val));
+        getSankeyData(inputyear1, inputmonth1);
+        localStorage.setItem("LocalStorageYEAR", inputyear1);
+        createGraph();
     });
 
 var gTime = d3
@@ -62,28 +62,29 @@ d3.select('p#value-time').text(d3.timeFormat('%Y')(sliderTime.value()));
 var data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
 var sliderSimple = d3
-.sliderBottom()
-.min(d3.min(data))
-.max(d3.max(data))
-.width(300)
-.tickFormat(d3.format(''))
-.step(1)
-.ticks(12)
-.default(12)
-.on('onchange', val => {
-    d3.select('p#value-simple').text(d3.format('')(val));
-    inputmonth1 = parseInt(d3.format('')(val));
-    getSankeyData(inputyear1, inputmonth1);
-    localStorage.setItem("LocalStorageMONTH", inputmonth1);
-});
+    .sliderBottom()
+    .min(d3.min(data))
+    .max(d3.max(data))
+    .width(300)
+    .tickFormat(d3.format(''))
+    .step(1)
+    .ticks(12)
+    .default(12)
+    .on('onchange', val => {
+        d3.select('p#value-simple').text(d3.format('')(val));
+        inputmonth1 = parseInt(d3.format('')(val));
+        getSankeyData(inputyear1, inputmonth1);
+        localStorage.setItem("LocalStorageMONTH", inputmonth1);
+        createGraph();
+    });
 
 var gSimple = d3
-.select('div#slider-simple')
-.append('svg')
-.attr('width', 500)
-.attr('height', 100)
-.append('g')
-.attr('transform', 'translate(30,30)');
+    .select('div#slider-simple')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
 
 gSimple.call(sliderSimple);
 

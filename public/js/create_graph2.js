@@ -21,7 +21,7 @@ function createGraph()
         // var year = 2000;
         g1 = {"nodes" : [], "links" : []}; 
 
-        var filteredLinks = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 7)) <= MONTH);
+        var filteredLinks = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 2)) <= MONTH);
         filteredLinks = filteredLinks.map(u => ({ source: u.source, target: u.target}));
         //console.log("filteredLinks", filteredLinks);
         const groupArray = (filteredLinks = []) => {

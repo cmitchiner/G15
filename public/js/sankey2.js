@@ -91,7 +91,7 @@ gSimple.call(sliderSimple);
 d3.select('p#value-simple').text(d3.format('')(sliderSimple.value()));
 
 var minEmails = 0;
-var maxEmails = 500;
+var maxEmails = 1500;
 
 function getMinMax(minE, maxE)
 {
@@ -111,15 +111,15 @@ function getSankeyData(YEAR, MONTH) {
         // var year = 2000;
         graph = {"nodes" : [], "links" : []}; 
 
-        var filteredLink = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 7)) <= MONTH);
+        var filteredLink = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 2)) <= MONTH);
         //console.log(g);
-        filteredLinks1 = filteredLink.map(u => ({ source: u.source_group, target: u.sentiment}));
+        filteredLinks1 = filteredLink.map(u => ({ source: u.source_group, email: u.source, target: u.sentiment}));
         //console.log(filteredLinks1);
-        filteredLinks2 = filteredLink.map(u => ({ source: u.sentiment, target: u.target_group}));
+        filteredLinks2 = filteredLink.map(u => ({ source: u.sentiment, email: u.target, target: u.target_group}));
         //console.log(filteredLinks2);
         filteredLinks = filteredLinks1.concat(filteredLinks2);
         
-        //console.log("filteredLinks", filteredLinks);
+        console.log("filteredLinks", filteredLinks);
         const groupArray = (filteredLinks = []) => {
             // create map
             let map = new Map()
@@ -129,6 +129,7 @@ function getSankeyData(YEAR, MONTH) {
                     map.set(s, {
                         source: filteredLinks[i].source,
                         target: filteredLinks[i].target,
+                        email: filteredLinks[i].email,
                         value: 1,
                     });
                 } else {
@@ -241,8 +242,7 @@ function changeSankey(graph) {
     // add the link titles
     link.append("title")
         .text(function(d) {
-            return d.source.name + " → " + 
-                d.target.name + "\n" + format(d.value); });
+            return d.email  + "\n" + format(d.value); });
 
     // add in the nodes
     var node = svg.append("g").selectAll(".node")

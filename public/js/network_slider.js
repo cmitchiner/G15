@@ -3,7 +3,7 @@
     $("#slider-range").slider({
       range: true,
       min: 0,
-      max: 101,
+      max: 5000,
       values: [0, 2],
       slide: function (event, ui) {
         //changeSlider(g1, ui.values[0], ui.values[1]);

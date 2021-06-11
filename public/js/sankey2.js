@@ -109,7 +109,7 @@ function getSankeyData(YEAR, MONTH) {
         //Filter data by date from sliders
         // var month = 12;
         // var year = 2000;
-        g1 = {"nodes" : [], "links" : []}; 
+        graph = {"nodes" : [], "links" : []}; 
 
         var filteredLink = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 7)) <= MONTH);
         //console.log(g);
@@ -163,17 +163,17 @@ function getSankeyData(YEAR, MONTH) {
         //console.log("filteredLinks", groupArray(filteredLinks));
 
         
-        g1.links = groupArray(filteredLinks);  
-        g1.nodes = groupNodes(filteredNodes);
-        g1.nodes.forEach( function (w) {
+        graph.links = groupArray(filteredLinks);  
+        graph.nodes = groupNodes(filteredNodes);
+        graph.nodes.forEach( function (w) {
 
-            g1.nodes.push({ "name": w.name + "."});
+            graph.nodes.push({ "name": w.name + "."});
         });
-        g1.nodes.push({"name": "POSITIVE"});
-        g1.nodes.push({"name": "NEUTRAL"});
-        g1.nodes.push({"name": "NEGATIVE"});
-        console.log("g1", g1);
-        changeSankey(g1);
+        graph.nodes.push({"name": "POSITIVE"});
+        graph.nodes.push({"name": "NEUTRAL"});
+        graph.nodes.push({"name": "NEGATIVE"});
+        console.log("graph", graph);
+        changeSankey(graph);
        // $("#slider-range").slider("values", 1);
     });
 }

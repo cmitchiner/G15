@@ -20,7 +20,22 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>
-    <body id="page-top">
+
+    
+    
+    <body id="page-top bg-dark">
+        <!-- SideBar -->
+    <div class="sidebar">
+        <div class="sidebar__inner bg-dark">
+            <h2 class="text-center text-success"> Emails Per Person</h2>
+            <div id="slider-range" ></div>
+            <input type="text" id="amount" readonly style=" width: 100%; text-align: center; border:0; background:#343a40; color:grey; font-weight:bold;"><br>
+            <h2 class="text-center text-success" style="padding-top:10px;"> Up to Year:</h2>
+            <div id="slider-time"></div>
+            <h2 class="text-center text-success" style="padding-top:10px"> Up to Month:</h2>
+            <div id="slider-simple"></div>
+        </div>
+      </div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
@@ -52,24 +67,14 @@
             </div>
         </header>
          <!-- Sankey-->
-         <section class="sankey-section bg-dark container-fluid" id="sankey">
+         <section class="sankey-section bg-dark" id="sankey">
             <h1 class="mx-auto my-0 text-uppercase text-center">Sankey Diagram</h1>
             <script src="js/sankey.js"></script>
-                <div class="row align-items-center">
-                    <div class="column center">
-                        <h3 class="text-white-50">Up to Year</h3>
-                    <div class="row-sm"><div id="slider-time"></div></div>
-                    </div>
-                    <div class="column center">
-                        <h3 class="text-white-50 text-center">Up to Month</h3>
-                        <div class="row-sm"><div id="slider-simple"></div></div> 
-                    </div>
-                  </div>    
             
             <!-- <script src="js/sankey2.js"></script>         -->
         </section>
         <!--Network Graph -->
-        <section class="network-section bg-dark container-fluid" id="networkViz">
+        <section class="network-section bg-dark" id="networkViz">
               <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
               <script>
                 $(function () {
@@ -88,14 +93,15 @@
                     " - " + $("#slider-range").slider("values", 1));
                 });
               </script>
-              <h1 class="mx-auto my-0 text-uppercase text-center">Force Directed Network Diagram</h1>
-              <p class="text-white-50 text-center">Drag the slider to limit the number of emails per person.</p>
-              <div id="slider-range" ></div>
-              <input type="text" id="amount" readonly style=" border:0; background: #343a40; color:#f6931f; font-weight:bold;"><br>
+              <h1 class="mx-auto my-0 text-uppercase text-center" style="padding-bottom:20px;">Force Directed Network Diagram</h1>
+              
+              
               <script src = "/js/sankey2.js"></script>
               <script src="/js/create_graph.js"></script>
               <script src="/js/create_graph2.js"></script>  
         </section>
+    
+    
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50">
             <div class="social d-flex justify-content-center">
@@ -113,4 +119,6 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+
+    
 </html>

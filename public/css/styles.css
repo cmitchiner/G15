@@ -4058,8 +4058,24 @@ input[type=button].btn-block {
   display: block;
 }
 
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0px;
+  width: 300px;
+  background: darkgray;
+}
+
+.sidebar__inner {
+  height: 800px;
+  padding-top: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -10428,6 +10444,7 @@ body {
   transition: opacity .2s;
 }
 
+
 .slider:hover {
   opacity: 1;
 }
@@ -10447,6 +10464,11 @@ body {
   background: #04AA6D;
   cursor: pointer;
 }
+.network-section
+{
+  padding-right: 310px;
+  padding-left: 10px;
+}
 
 .network-section h1
 {
@@ -10462,6 +10484,8 @@ body {
 
 .sankey-section {
   padding-top: 10rem;
+  padding-right: 300px;
+  overflow:hidden;
   /*padding-left: 30rem;*/
 
   padding-bottom: 10rem;

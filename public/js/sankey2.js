@@ -34,7 +34,7 @@
         .min(d3.min(dataTime))
         .max(d3.max(dataTime))
         .step(1000 * 60 * 60 * 24 * 365)
-        .width(300)
+        .width(220)
         .tickFormat(d3.timeFormat('%Y'))
         .tickValues(dataTime)
         .default(new Date(2002, 12, 1)) //default is 1998
@@ -65,7 +65,7 @@
     .sliderBottom()
     .min(d3.min(data))
     .max(d3.max(data))
-    .width(300)
+    .width(220)
     .tickFormat(d3.format(''))
     .step(1)
     .ticks(12)
@@ -75,6 +75,7 @@
         inputmonth1 = parseInt(d3.format('')(val));
         changeSankey(inputyear1, inputmonth1);
         localStorage.setItem("LocalStorageMONTH", inputmonth1);
+        createGraph();
     });
 
     var gSimple = d3

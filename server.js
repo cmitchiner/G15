@@ -31,8 +31,10 @@ app.post('/upload', upload.single("Csv data file"), (req, res) => {
     });
     // in close event we are sure that stream from child process is closed
     python.on('close', (code) => {
-    console.log(`child process close all stdio with code ${code}`)});
-    return res.json({ status : "File uploaded successfully!" });
+        console.log(`child process close all stdio with code ${code}`);
+        // res.sendFile(path.join(__dirname, "/src/views/", "visualizations.html"))
+    });
+    return res.sendFile(path.join(__dirname, "/src/views/", "loading.html"));
 });
 
 //Tell the webpage the root HTML file

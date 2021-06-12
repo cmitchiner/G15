@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Loading...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/loading.css" />
+    
+  </head>
+  <body>
+    <div class="progress-container">
+        <div class="progress"></div>
+    </div>
+    <script>
+        const progressbar = document.querySelector(".progress");
+
+        const changeProgress = (progress) => {
+        progressbar.style.width = `${progress}%`;
+        };
+
+        function relocateViz() {
+            window.location.replace("./visualizations.html");
+            
+        }
+
+        /* change progress after 1 second (only for showcase) */
+        setTimeout(() => changeProgress(22), 3000);
+        setTimeout(() => changeProgress(45), 7000);
+        setTimeout(() => changeProgress(75), 25000);
+        setTimeout(() => changeProgress(95), 48000);
+        setTimeout(() => changeProgress(100), 59000);
+        setTimeout(() => relocateViz(), 60000);
+
+        
+        //window.location.href = "./visualizations.html";
+        
+
+    </script>
+  </body>
+</html>

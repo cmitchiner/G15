@@ -170,7 +170,11 @@ function getSankeyData(YEAR, MONTH) {
         // var month = 12;
         // var year = 2000;
         graph = {"nodes" : [], "links" : []}; 
+        
+        //Filtering by number of emails.
 
+
+        //Filtering by Date
         var filteredLink = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 2)) <= MONTH);
         //console.log(g);
         filteredLinks1 = filteredLink.map(u => ({ source: u.source_group, email: u.source, target: u.sentiment}));
@@ -225,9 +229,9 @@ function changeSankey(graph) {
     
     var units = "Emails";
 
-    graph.links = graph.links.filter(function (el) {
-        return minEmails <= el.value && el.value <= maxEmails;
-        });
+    // graph.links = graph.links.filter(function (el) {
+    //     return minEmails <= el.value && el.value <= maxEmails;
+    //     });
 
     
     // format variables

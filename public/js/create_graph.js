@@ -45,6 +45,30 @@ function changeSlider(g1, min, max) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
+    .on("mouseover", function (d){
+
+      //console.log(d.id);
+      d3.select(this).attr("r",10);
+      svg.selectAll(".link").each(function (f,i){
+          if (f.email == d.id)
+          {
+              d3.select(this).style("stroke", "#fff");
+              $("#selectedEmail").html("Selected Node:<br>email: " + d.id + "<br>job: " + d.group);
+          }
+      }); 
+  })
+  .on("mouseout", function (d){
+
+    //console.log(d.id);
+    d3.select(this).attr("r",5);
+    svg.selectAll(".link").each(function (f,i){
+        if (f.email == d.id)
+        {
+            d3.select(this).style("stroke", "#000");
+            $("#selectedEmail").html("Selected Node:<br> none");
+        }
+    }); 
+})
     .attr("r", 5)
     .attr("fill", function (d) { return color(d.group); })
     .call(d3.drag()

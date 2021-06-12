@@ -25,17 +25,19 @@
     
     <body id="page-top bg-dark">
         <!-- SideBar -->
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <div class="sidebar__inner bg-dark">
-            <h2 class="text-center text-success"> Emails Per Person</h2>
+            <p class="email-section text-center text-success"id = selectedEmail>Selected Node:<br> none</p>
+            <p class="text-center text-warning"> Emails Per Person</p>
             <div id="slider-range" ></div>
-            <input type="text" id="amount" readonly style=" width: 100%; text-align: center; border:0; background:#343a40; color:grey; font-weight:bold;"><br>
-            <h2 class="text-center text-success" style="padding-top:10px;"> Up to Year:</h2>
-            <div id="slider-time"></div>
-            <h2 class="text-center text-success" style="padding-top:10px"> Up to Month:</h2>
+            <input type="text" id="amount" readonly style=" width: 100%; text-align: center; border:0; background:#343a40; color:#28a745; font-weight:bold;"><br>
+            <p class="text-center text-warning" style="padding-top:2px;"> Up to Year:</p>
+            <div id="slider-time" style="margin-top: 0px; padding-top:0px"></div>
+            <p class="text-center text-warning" style="padding-top:2px; padding-bottom:-10px;"> Up to Month:</p>
+            
             <div id="slider-simple"></div>
         </div>
-      </div>
+        </div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">

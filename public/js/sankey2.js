@@ -6,10 +6,13 @@ localStorage.setItem("LocalStorageYEAR", inputyear1);
 localStorage.setItem("LocalStorageMONTH", inputmonth1);
 
 
+
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 50, bottom: 10, left: 50},
 width = 1900 - margin.left - margin.right,
 height = 750 - margin.top - margin.bottom;
+
+
 
 // append the svg object to the body of the page
 var svg = d3.select("#sankey").append("svg")
@@ -100,6 +103,63 @@ function getMinMax(minE, maxE)
     //console.log(minEmails,maxEmails);
     getSankeyData(inputyear1, inputmonth1);
 }
+// function getSankeyData(YEAR, MONTH) {
+
+//     d3.json("/data/GraphInput.json", function (error, g) {
+        
+//         //Filter data by date from sliders
+//         // var month = 12;
+//         // var year = 2000;
+//          graph = {"nodes" : [], "links" : []}; 
+
+//         var filteredLink = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 7)) <= MONTH);
+//         filteredLink.forEach(function(d)
+//         {
+//             graph.links.push({ "source": d.source_group,
+//                              "target": d.sentiment,
+//                              "value": 1,
+//                              "year1": d.date.substr(0,4),
+//                              "month1": d.date.substr(5,2),
+//                              "email": d.source,
+//                             "first": 1});
+//             graph.links.push({ "source": d.sentiment,
+//                             "target": d.target_group,
+//                             "value": 1,
+//                             "year1": d.date.substr(0,4),
+//                             "month1": d.date.substr(5,2),
+//                             "email": d.target,
+//                             "first": 0});
+//         });
+//         for (let i = 0; i < graph.links.length; i++)
+//         {
+//             //console.log("i", i);
+//             for (let j = i+1; j < graph.links.length; j++)
+//             {
+//                 //console.log("j", i);
+//                 if (graph.links[i].email == graph.links[j].email && graph.links[i].target == graph.links[j].target && graph.links[i].first == 1 && graph.links[j].first == 1)
+//                 {
+//                     //add a value to i and delete graph links j
+//                     graph.links[i].value++;
+//                     graph.links.splice(j,1);
+//                 } else if (graph.links[i].email == graph.links[j].email && graph.links[i].source == graph.links[j].source && graph.links[i].first == 0 && graph.links[j].first == 0)
+//                 {
+//                     graph.links[i].value++;
+//                     graph.links.splice(j,1);
+//                 } 
+//             }
+//         }
+//         for (let i = 0; i < graph.links.length; i++)
+//         {
+//                 graph.nodes.push({"name": graph.links[i].source});
+//                 graph.nodes.push({"name": graph.links[i].target});
+//         }
+
+
+//         //graph.nodes = groupNodes(graph.nodes);
+//         console.log(graph);
+//        changeSankey(graph);
+//     });
+// }
 
 
 function getSankeyData(YEAR, MONTH) {
@@ -119,7 +179,7 @@ function getSankeyData(YEAR, MONTH) {
         //console.log(filteredLinks2);
         filteredLinks = filteredLinks1.concat(filteredLinks2);
         
-        console.log("filteredLinks", filteredLinks);
+        //console.log("filteredLinks", filteredLinks);
         const groupArray = (filteredLinks = []) => {
             // create map
             let map = new Map()
@@ -139,43 +199,22 @@ function getSankeyData(YEAR, MONTH) {
             const res = Array.from(map.values())
             return res;
         };
-
-        filteredNodes = g.nodes.map(u => ({name: u.group}));
-        //console.log(filteredNodes);
-        const groupNodes = (filteredNodes = []) => {
-            // create map
-            let map = new Map()
-            for (let i = 0; i < filteredNodes.length; i++) {
-                const s = JSON.stringify(filteredNodes[i]);
-                if (!map.has(s)) {
-                    map.set(s, {
-                        name: filteredNodes[i].name
-                    });
-                }
-            }
-
-            const res = Array.from(map.values())
-            //console.log(res);
-            return res;
-        };
+        graph.links = groupArray(filteredLinks);
+        graph.links = graph.links.filter(function (el) {
+            return minEmails <= el.value && el.value <= maxEmails;
+            });  
+        for (let i = 0; i < graph.links.length; i++)
+        {
+                graph.nodes.push({"name": graph.links[i].source});
+                graph.nodes.push({"name": graph.links[i].target});
+        }
 
         
-        
-        //console.log("filteredLinks", groupArray(filteredLinks));
-
-        
-        graph.links = groupArray(filteredLinks);  
-        graph.nodes = groupNodes(filteredNodes);
-        graph.nodes.forEach( function (w) {
-
-            graph.nodes.push({ "name": w.name + "."});
-        });
-        graph.nodes.push({"name": "POSITIVE"});
-        graph.nodes.push({"name": "NEUTRAL"});
-        graph.nodes.push({"name": "NEGATIVE"});
-        console.log("graph", graph);
+        //console.log("graph", graph);
         changeSankey(graph);
        // $("#slider-range").slider("values", 1);
+
+       //optimise by filtering dates afterwords?????
     });
 }
 
@@ -185,6 +224,10 @@ function changeSankey(graph) {
 
     
     var units = "Emails";
+
+    graph.links = graph.links.filter(function (el) {
+        return minEmails <= el.value && el.value <= maxEmails;
+        });
 
     
     // format variables
@@ -219,22 +262,39 @@ function changeSankey(graph) {
     graph.nodes[i] = { "name": d };
     });
 
-    graph.links = graph.links.filter(function (el) {
-        return minEmails <= el.value && el.value <= maxEmails;
-        });
+    
 
     sankey
         .nodes(graph.nodes)
         .links(graph.links)
         .layout(32);
 
-    
     svg.selectAll("*").remove(); 
     // add in the links
     var link = svg.append("g").selectAll(".link")
         .data(graph.links)
     .enter().append("path")
         .attr("class", "link")
+        .on("mouseover", function (d,i){
+
+            svg2.selectAll("circle").each(function (f,i){
+                if (f.id == d.email)
+                {
+                    d3.select(this).attr("r",10);
+                    $("#selectedEmail").html("Selected Node:<br>email: " + d.email + "<br>job: " + f.group);
+                }
+            }); 
+        })
+        .on("mouseout", function (d,i){
+
+            svg2.selectAll("circle").each(function (f,i){
+                if (f.id == d.email)
+                {
+                    d3.select(this).attr("r",5);
+                    $("#selectedEmail").html("Selected Node:<br> none");
+                }
+            }); 
+        })
         .attr("d", path)
         .style("stroke-width", function(d) { return Math.max(0.2, d.dy); })
         .sort(function(a, b) { return b.dy - a.dy; });
@@ -242,7 +302,9 @@ function changeSankey(graph) {
     // add the link titles
     link.append("title")
         .text(function(d) {
-            return d.email  + "\n" + format(d.value); });
+            return d.email  + "\n" + format(d.value); })
+        
+
 
     // add in the nodes
     var node = svg.append("g").selectAll(".node")
@@ -284,6 +346,7 @@ function changeSankey(graph) {
     .filter(function(d) { return d.x < width / 2; })
         .attr("x", 6 + sankey.nodeWidth())
         .attr("text-anchor", "start");
+
 
 
             // the function for moving the nodes

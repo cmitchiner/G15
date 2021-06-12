@@ -12,7 +12,7 @@ function createGraph()
 
     var MONTH = Number(m1);
     var YEAR = Number(y1);
-    console.log(MONTH, YEAR);
+    //console.log(MONTH, YEAR);
 
     d3.json("/data/GraphInput.json", function (g) {
         
@@ -59,11 +59,23 @@ function createGraph()
 
     var slider = document.getElementById("myRange");
     var output = document.getElementById("demo");;
-    output.innerHTML = slider.value;
-
-
-
-    slider.oninput = function () {
-        output.innerHTML = this.value;
-        changeSlider(g1, 0, this.value);
+    try{
+        output.innerHTML = slider.value;
     }
+    catch(e){
+        //console.log(e);
+    }
+    
+
+
+    try{
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+            changeSlider(g1, 0, this.value);
+        }
+    }
+    catch(e)
+    {
+        //console.log(e);
+    }
+    

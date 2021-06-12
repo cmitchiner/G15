@@ -10473,7 +10473,7 @@ body {
 .network-section h1
 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-size: 1rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(0, 248, 12, 0.9), rgba(255, 255, 255, 0.2));
@@ -10481,14 +10481,16 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
-
+.email-section {
+  border: dashed 4px #000;
+}
 .sankey-section {
   padding-top: 10rem;
   padding-right: 300px;
   overflow:hidden;
   /*padding-left: 30rem;*/
 
-  padding-bottom: 10rem;
+  padding-bottom: 1rem;
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg"); */
 }
 .sankey-section p {
@@ -10496,7 +10498,7 @@ body {
 }
 .sankey-section h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-size: 1rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(0, 248, 12, 0.9), rgba(255, 255, 255, 0.2));

@@ -65,8 +65,16 @@
                     <input id="actual-btn" type="file" onchange="document.getElementById('upload-btn').innerText = value" name="Csv data file" accept=".csv" hidden/>
                     <label class= "btn btn-success" for="actual-btn" id="upload-btn">Select a file</label>
                     <button class="btn btn-success js-scroll-trigger">Submit</button>
+                    </form>
+                    <div class="center align-items-center">
+                        <form action="/upload" method="POST" enctype="multipart/form-data">
+                        <button class="btn btn-success js-scroll-trigger">Use Built in Dataset</button>
+                        </form>
+                    </div>
                 </div>
+                
             </div>
+            
         </header>
          <!-- Sankey-->
          <section class="sankey-section bg-dark" id="sankey">

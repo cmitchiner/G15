@@ -280,7 +280,7 @@ function changeSankey(graph) {
     .enter().append("path")
         .attr("class", "link")
         .on("mouseover", function (d,i){
-
+            d3.select(this).style("stroke", "#fff");
             svg2.selectAll("circle").each(function (f,i){
                 if (f.id == d.email)
                 {
@@ -290,6 +290,7 @@ function changeSankey(graph) {
             }); 
         })
         .on("mouseout", function (d,i){
+            d3.select(this).style("stroke", "#000");
 
             svg2.selectAll("circle").each(function (f,i){
                 if (f.id == d.email)

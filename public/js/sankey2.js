@@ -5,6 +5,18 @@ inputmonth1=12;
 localStorage.setItem("LocalStorageYEAR", inputyear1);
 localStorage.setItem("LocalStorageMONTH", inputmonth1);
 
+var previousSelection = null;
+var previousSelection2 = null;
+
+function getPreviousSelection1()
+    {
+        return previousSelection;
+    }
+function getPreviousSelection2()
+{
+    return previousSelection2;
+}
+
 
 
 // set the dimensions and margins of the graph
@@ -215,6 +227,7 @@ function getSankeyData(YEAR, MONTH) {
 
         
         //console.log("graph", graph);
+        $("#selectedEmail").html("Selected Node:<br> none");
         changeSankey(graph);
        // $("#slider-range").slider("values", 1);
 
@@ -275,30 +288,40 @@ function changeSankey(graph) {
 
     svg.selectAll("*").remove(); 
     // add in the links
+    
+    
     var link = svg.append("g").selectAll(".link")
         .data(graph.links)
     .enter().append("path")
         .attr("class", "link")
-        .on("mouseover", function (d,i){
+        .on("click", function (d,i){
+            var previousSelection3 = getPreviousSelection3();
+            var previousSelection4 = getPreviousSelection4();
+            if (previousSelection != null && previousSelection2 != null)
+            {
+                previousSelection.style("stroke", "#000");
+                previousSelection2.attr("r",5);
+            }
+            if (previousSelection3 != null && previousSelection4 != null)
+            {
+                svg.selectAll(".link").each(function (f,i){
+                    if (f.email == previousSelection3)
+                    {
+                        d3.select(this).style("stroke", "#000");
+                    }
+                }); 
+                previousSelection4.attr("r", 5);
+            }
             d3.select(this).style("stroke", "#fff");
             svg2.selectAll("circle").each(function (f,i){
                 if (f.id == d.email)
                 {
-                    d3.select(this).attr("r",10);
+                    d3.select(this).attr("r",12);
                     $("#selectedEmail").html("Selected Node:<br>email: " + d.email + "<br>job: " + f.group);
+                    previousSelection2 = d3.select(this);
                 }
             }); 
-        })
-        .on("mouseout", function (d,i){
-            d3.select(this).style("stroke", "#000");
-
-            svg2.selectAll("circle").each(function (f,i){
-                if (f.id == d.email)
-                {
-                    d3.select(this).attr("r",5);
-                    $("#selectedEmail").html("Selected Node:<br> none");
-                }
-            }); 
+            previousSelection = d3.select(this);
         })
         .attr("d", path)
         .style("stroke-width", function(d) { return Math.max(0.2, d.dy); })

@@ -62,8 +62,8 @@
                     <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5">Upload a CSV File, to Begin!</h2>
                     <form action="/upload" method="POST" enctype="multipart/form-data">
-                    <input id="actual-btn" type="file" name="Csv data file" accept=".csv" hidden/>
-                    <label class= "btn btn-success" for="actual-btn">Select a file</label>
+                    <input id="actual-btn" type="file" onchange="document.getElementById('upload-btn').innerText = value" name="Csv data file" accept=".csv" hidden/>
+                    <label class= "btn btn-success" for="actual-btn" id="upload-btn">Select a file</label>
                     <button class="btn btn-success js-scroll-trigger">Submit</button>
                 </div>
             </div>

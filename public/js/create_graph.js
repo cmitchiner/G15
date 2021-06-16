@@ -3,6 +3,18 @@ var simulation;
 var minTest;
 var maxTest;
 
+var previousSelection3 = null;
+var previousSelection4 = null;
+
+function getPreviousSelection3()
+    {
+        return previousSelection3;
+    }
+function getPreviousSelection4()
+{
+    return previousSelection4;
+}
+
 var svg2 = d3.select("#networkViz")
     .append("svg")
     // .attr("width", '1900')
@@ -10,6 +22,8 @@ var svg2 = d3.select("#networkViz")
     .attr("viewBox", `0 0 1900 750`)
     .attr("preserveAspectRatio", "xMidYMid meet");
 function changeSlider(g1, min, max) {
+
+  $("#selectedEmail").html("Selected Node:<br> none");
 
   let graph = JSON.parse(JSON.stringify(g1));
   graph.links = graph.links.filter(function (el) {
@@ -45,30 +59,48 @@ function changeSlider(g1, min, max) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-    .on("mouseover", function (d){
-
+    .on("click", function (d){
+      var previousSelection = getPreviousSelection1();
+      var previousSelection2 = getPreviousSelection2();
       //console.log(d.id);
-      d3.select(this).attr("r",10);
+      if (previousSelection != null && previousSelection2 != null)
+      {
+        previousSelection.style("stroke", "#000");
+        previousSelection2.attr("r", 5);
+      }
+      if (previousSelection3 != null && previousSelection4 != null)
+      {
+        svg.selectAll(".link").each(function (f,i){
+          if (f.email == previousSelection3)
+          {
+              d3.select(this).style("stroke", "#000");
+          }
+      }); 
+        previousSelection4.attr("r", 5);
+      }
+      d3.select(this).attr("r",12);
       svg.selectAll(".link").each(function (f,i){
           if (f.email == d.id)
           {
               d3.select(this).style("stroke", "#fff");
               $("#selectedEmail").html("Selected Node:<br>email: " + d.id + "<br>job: " + d.group);
+              previousSelection3 = f.email;
           }
       }); 
+      previousSelection4 = d3.select(this);
   })
-  .on("mouseout", function (d){
+//   .on("mouseout", function (d){
 
-    //console.log(d.id);
-    d3.select(this).attr("r",5);
-    svg.selectAll(".link").each(function (f,i){
-        if (f.email == d.id)
-        {
-            d3.select(this).style("stroke", "#000");
-            $("#selectedEmail").html("Selected Node:<br> none");
-        }
-    }); 
-})
+//     //console.log(d.id);
+//     d3.select(this).attr("r",5);
+//     svg.selectAll(".link").each(function (f,i){
+//         if (f.email == d.id)
+//         {
+//             d3.select(this).style("stroke", "#000");
+//             $("#selectedEmail").html("Selected Node:<br> none");
+//         }
+//     }); 
+// })
     .attr("r", 5)
     .attr("fill", function (d) { return color(d.group); })
     .call(d3.drag()

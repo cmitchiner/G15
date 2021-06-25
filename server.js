@@ -69,6 +69,11 @@ app.post('/default', (req, res) => {
     return res.sendFile(path.join(__dirname, "/src/views/", "loading.html"));
 });
 
+app.post('/remove', (req, res) => {
+    reset();
+    return res.sendFile(path.join(__dirname, "/src/views/", "loading.html"));
+});
+
 
 
 //Tell the webpage the root HTML file
@@ -76,6 +81,6 @@ app.get("/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "/src/views/", "index.html"));
 });
 
-const port = 5050;
+const port = 80;
 //Send website to local host port and print server running to console
 app.listen(process.env.PORT || port, () => console.log("Server running at port " + port));

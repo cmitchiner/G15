@@ -3,7 +3,22 @@ const multer = require("multer");
 const path = require("path");
 const app = express();
 const {spawn} = require("child_process");
+const fs = require("fs");
 //edu fix your wiffi
+
+
+function reset() {
+    
+    try {
+        fs.unlinkSync(path.join(__dirname, "/public/data/GraphInput.json"));
+        console.log("file deleted.")
+    }
+    catch (error) {
+        console.log(error);
+    }
+};
+
+
 //Formating the uploaded file
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
@@ -53,6 +68,8 @@ app.post('/default', (req, res) => {
     });
     return res.sendFile(path.join(__dirname, "/src/views/", "loading.html"));
 });
+
+
 
 //Tell the webpage the root HTML file
 app.get("/*", (req, res) => {

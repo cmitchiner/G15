@@ -1,0 +1,41 @@
+The Calendar Heat Map - VizGenie
+This visualization is still in development and not yet implemented on VizGenie.
+
+Requirements:
+- Node js (14.7)
+- Python3
+
+Content of this folder:
+- calendar_visualization.html
+- calendar_visualization_per_year_version.html
+- edited_enron_dataset.csv
+
+Extensions needed:
+- D3 library
+
+Explanation of content:
+The first HTML file (calendar_visualization.html) is a version of the Calendar Heat Map program 
+which works but does not print to the desired layout (printing months by year).
+
+The second HTML file (calendar_visualization_per_year_version.html) is the latest version of the Calendar Heat Map program 
+which does not run and hence does not work yet, but it is programmed with the aim to print the months by year. 
+The aim is to develop this program further in the future and to get the widgets of the other visualizations workig with this visualization too.
+
+The CSV-file (edited_enron_dataset.csv) is an edited version of the original enron_1 dataset. 
+This CSV-file contains the data in the correct format that is needed for this program to be able to run.
+We have obtained this edited version of the original Enron CSV dataset by taking the following steps:
+
+Conversion steps
+1.	Convert text to columns (data)
+2.	Extend width dates column
+3.	Sort by date (Home  sort oldest to newest)
+4.	Select and replace all decimal points with commas in sentiment column
+5.	Add date column
+6.	Add average sentiment (= count) column
+7.	Use =SUMIF($A$2:$A$31042; F2 ;$D$2:$D$31042) to get the Sum of sentiment ordered by day (the $ is used to use a fixed range) 
+8.	Add value column to data and set every row to 1
+9.	Use =SUMIFS() to sum the number of inputs by using value
+10.	Divide the sum of sentiment by this number to obtain the average sentiment per day: using =IF(J2;I2/J2;0) (the if statement prevents occurring errors when dividing by 0)
+11.	Change date-format CTRL 1  change date format to year-month-day
+
+The aim is to develop a Python script as we did for the other two visualizations to automatically create a new CSV-file from the uploaded CSV-file by the user of VizGenie.

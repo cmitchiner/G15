@@ -115,63 +115,6 @@ function getMinMax(minE, maxE)
     //console.log(minEmails,maxEmails);
     getSankeyData(inputyear1, inputmonth1);
 }
-// function getSankeyData(YEAR, MONTH) {
-
-//     d3.json("/data/GraphInput.json", function (error, g) {
-        
-//         //Filter data by date from sliders
-//         // var month = 12;
-//         // var year = 2000;
-//          graph = {"nodes" : [], "links" : []}; 
-
-//         var filteredLink = g.links.filter(d => parseInt(d.date.substr(0, 4)) <= YEAR && parseInt(d.date.substr(5, 7)) <= MONTH);
-//         filteredLink.forEach(function(d)
-//         {
-//             graph.links.push({ "source": d.source_group,
-//                              "target": d.sentiment,
-//                              "value": 1,
-//                              "year1": d.date.substr(0,4),
-//                              "month1": d.date.substr(5,2),
-//                              "email": d.source,
-//                             "first": 1});
-//             graph.links.push({ "source": d.sentiment,
-//                             "target": d.target_group,
-//                             "value": 1,
-//                             "year1": d.date.substr(0,4),
-//                             "month1": d.date.substr(5,2),
-//                             "email": d.target,
-//                             "first": 0});
-//         });
-//         for (let i = 0; i < graph.links.length; i++)
-//         {
-//             //console.log("i", i);
-//             for (let j = i+1; j < graph.links.length; j++)
-//             {
-//                 //console.log("j", i);
-//                 if (graph.links[i].email == graph.links[j].email && graph.links[i].target == graph.links[j].target && graph.links[i].first == 1 && graph.links[j].first == 1)
-//                 {
-//                     //add a value to i and delete graph links j
-//                     graph.links[i].value++;
-//                     graph.links.splice(j,1);
-//                 } else if (graph.links[i].email == graph.links[j].email && graph.links[i].source == graph.links[j].source && graph.links[i].first == 0 && graph.links[j].first == 0)
-//                 {
-//                     graph.links[i].value++;
-//                     graph.links.splice(j,1);
-//                 } 
-//             }
-//         }
-//         for (let i = 0; i < graph.links.length; i++)
-//         {
-//                 graph.nodes.push({"name": graph.links[i].source});
-//                 graph.nodes.push({"name": graph.links[i].target});
-//         }
-
-
-//         //graph.nodes = groupNodes(graph.nodes);
-//         console.log(graph);
-//        changeSankey(graph);
-//     });
-// }
 
 
 function getSankeyData(YEAR, MONTH) {

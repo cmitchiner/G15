@@ -1,0 +1,26 @@
+{
+  "nodes":
+ 
+[
+ {
+   "id": "matthew.lenhart@enron.com",
+   "group": "Employee"
+ }, 
+ {
+   "id": "eric.bass@enron.com",
+   "group": "Trader"
+ } 
+], 
+ 
+ 
+  "links": [
+ {
+   "source": "matthew.lenhart@enron.com",
+   "target": "eric.bass@enron.com",
+   "source_group": "Employee",
+   "target_group": "Trader.",
+   "sentiment": "POSITIVE",
+   "date": "2000/08/13"
+ }
+]
+}

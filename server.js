@@ -38,7 +38,7 @@ app.use(express.static(path.join(__dirname, '/src/views')));
 app.post('/upload', upload.single("Csv data file"), (req, res) => {
     var dataToSend;
     // spawn new child process to call the python script
-    const python = spawn('python', [path.join(__dirname, '/public/py/dataHandling.py')]); //not working for some reason. Can't find py file maybe?
+    const python = spawn('python', ['./public/py/dataHandling.py']); //not working for some reason. Can't find py file maybe?
     // collect data from script
     python.stdout.on('data', function (data) {
     console.log('Pipe data from python script ...');
@@ -55,7 +55,7 @@ app.post('/upload', upload.single("Csv data file"), (req, res) => {
 app.post('/default', (req, res) => {
     var dataToSend;
     // spawn new child process to call the python script
-    const python = spawn('python', [path.join(__dirname, '/public/py/DefaultdataHandling.py')]); //not working for some reason. Can't find py file maybe?
+    const python = spawn('python', ['./public/py/DefaultdataHandling.py']); //not working for some reason. Can't find py file maybe?
     // collect data from script
     python.stdout.on('data', function (data) {
     console.log('Pipe data from python script ...');
@@ -81,6 +81,6 @@ app.get("/*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "/src/views/", "index.html"));
 });
 
-const port = 80;
+const port = 5050;
 //Send website to local host port and print server running to console
 app.listen(process.env.PORT || port, () => console.log("Server running at port " + port));
